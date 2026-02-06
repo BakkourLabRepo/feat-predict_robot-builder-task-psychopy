@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="jspsych/dist/jspsych.js"></script>
+    <script src="config.js"></script>
+    <script src="js/helper_funcs.js"></script>
+    <script src="js/env_features_funcs.js"></script>
+    <script>
+
+        // initialize jsPsych
+        let jsPsych = initJsPsych();
+
+        /////////////////////////////////////////////////////////////////
+        // Generate session information /////////////////////////////////
+        /////////////////////////////////////////////////////////////////
+
+        let session_info = {};
+        for (const seed of SEEDS) {
+            for (const condition of CONDITIONS) {
+                jsPsych.randomization.setSeed(seed);
+                condition_label = condition//['within', 'between'][condition];
+                console.log(
+                    `Running: seed = ${seed}, condition = ${condition_label}`
+                )
+
+                ////////////////////////////////////////////////////////
+                // Map robot part images to task features //////////////
+                ////////////////////////////////////////////////////////
+
+                // randomly map task feats to body, head, arm, antenna
+                let feature_map = jsPsych.randomization.sampleWithoutReplacement(
+                    createIntArray(STIM_FEATS.length),
+                    N_FEATS
+                );
+                // Update feature_map based on condition STIM_TO_TASK_MAPPINGS
+                for (let i = 0; i < N_FEATS; i++) {
+                    feature_map[i] = STIM_TO_TASK_MAPPINGS[condition_label][feature_map[i]];
+                };
+                let stim_to_task_feature_map = zipArrays(
+                    STIM_FEATS,
+                    feature_map
+                );
+                let task_to_stim_feature_map = zipArrays(
+                    feature_map,
+                    STIM_FEATS
+                );
+
+                
+                
+
+                // within each feature, randomly map stimulus to task
+                // instances
+                let stim_to_task_instance_map = {};
+                let task_to_stim_instance_map = {};
+                for (let i = 0; i < N_FEATS; i++) {
+                    const inst_map = jsPsych.randomization.sampleWithoutReplacement(
+                        STIM_INSTS,
+                        N_INSTS
+                    );
+                    const task_insts = addValueToArray(
+                        createIntArray(N_INSTS),
+                        1
+                    )
+                    stim_to_task_instance_map[i] = zipArrays(
+                        inst_map,
+                        task_insts
+                    );
+                    stim_to_task_instance_map[i][0] = 0
+                    task_to_stim_instance_map[i] = zipArrays(
+                        task_insts,
+                        inst_map
+                    );
+                    task_to_stim_instance_map[i][0] = 0
+                };
+
+
+                ////////////////////////////////////////////////////////
+                // Generate choice phase action pairs //////////////////
+                ////////////////////////////////////////////////////////
+
+                // Get most likely transition matrix and reward function
+                let feat_tmat_likely = getMostLikelyTransitionMatrix(
+                    FEATURE_TMAT[condition_label]
+                );
+                let inst_tmat_likely = getMostLikelyTransitionMatrix(
+                    INSTANCE_TMAT
+                );
+
+                // All possible feature combinations
+                let all_combs = generateCombinations(
+                    ...Array(N_FEATS).fill([0, 1])
+                );
+
+                // Only keep those with the correct number of features
+                // per combination
+                let task_combs = [];
+                let novel_combs = [];
+                for (const comb of all_combs) {
+                    if (arraySum(comb) == N_PER) {
+                        task_combs.push(comb);
+                        if (!isSubarrayIn2DArray(comb, TRAINING_COMBS)) {
+                            novel_combs.push(comb);
+                        };
+                    };
+                };
+
+                // For every feature combination, get possible instance
+                // conjunctions
+                let conjunctions = getConjunctions(
+                    task_combs,
+                    START_INSTS,
+                    TERMINAL_INSTS
+                );            
+                /*
+                let practice_conjunctions = getConjunctions(
+                    PRACTICE_COMBS,
+                    START_INSTS,
+                    TERMINAL_INSTS
+                );
+                */
+
+                // Get solo feature images for encoding phase
+                let all_features = [];
+                for (let feat = 0; feat < N_FEATS; feat++) {
+                    for (let inst = 1; inst <= N_INSTS; inst++) {
+                        all_features.push(
+                            createOneHotArray(N_FEATS, feat, filled_value=inst)
+                        );
+                    };
+                };
+                const feature_fnames = getTrialFileNames(
+                    all_features,
+                    stim_to_task_feature_map,
+                    task_to_stim_instance_map,
+                    random_flip = false
+                );
+
+                // Organize start features for composition 
+                let start_features = {};
+                for (const step of createIntArray(START_INSTS.length)) {
+                    start_features[step] = {};
+                };
+                for (let feat = 0; feat < N_FEATS; feat++) {
+                    const feat_array = createOneHotArray(N_FEATS, feat);
+                    for (const step of createIntArray(START_INSTS.length)) {
+                        start_features[step][feat_array] = [];
+                    };
+                    for (const [step, step_start_insts] of START_INSTS.entries()) {
+                        for (const inst of step_start_insts) {
+                            start_features[step][feat_array].push(
+                                createOneHotArray(N_FEATS, feat, filled_value=inst)
+                            );
+                        };
+                    };
+                };
+
+                /*
+                // Sample practice actions and targets
+                const practice_ttrain_samples = generateTargetActions(
+                    practice_conjunctions,
+                    PRACTICE_COMBS,
+                    N_TTRAIN_PRACTICE,
+                    FEATURE_TMAT['practice'],
+                    inst_tmat_likely,
+                    TARGET_COMBS['practice'],
+                    matched_level_freq = 1
+                );
+                let practice_ttrain_targets = practice_ttrain_samples['targets'];
+                let practice_ttrain_actions = practice_ttrain_samples['actions'];
+                let practice_ttrain_correct_responses = practice_ttrain_samples['correct_responses'];
+
+                // Only keep first N_TTRAIN_PRACTICE trials
+                practice_ttrain_targets = practice_ttrain_targets.slice(0, N_TTRAIN_PRACTICE);
+                practice_ttrain_actions = practice_ttrain_actions.slice(0, N_TTRAIN_PRACTICE);
+                practice_ttrain_correct_responses = practice_ttrain_correct_responses.slice(0, N_TTRAIN_PRACTICE);
+
+                // Get stimulus file names
+                let practice_ttrain_targets_fnames = getPracticeFileNames(
+                    practice_ttrain_targets
+                );
+                let practice_ttrain_fnames = getPracticeFileNames(
+                    practice_ttrain_actions
+                );
+                */
+
+                
+
+                
+                // Training trials
+                const train_samples = generateTrials(
+                    conjunctions,
+                    TRAINING_COMBS,
+                    start_features,
+                    feat_tmat_likely,
+                    inst_tmat_likely,
+                    n_repeats = N_TRAIN_CONJ_REPEATS,
+                    match_comb_to_target = true,
+                    non_match_level_freq = TRAIN_NON_MATCH_LEVEL_FREQ
+                )
+                let train_correct_compositions = train_samples['correct_compositions'];
+                let train_targets = train_samples['targets'];
+                let train_options = train_samples['options'];
+                
+                // Get stimulus file names
+                let train_targets_fnames = getTrialFileNames(
+                    train_targets,
+                    stim_to_task_feature_map,
+                    task_to_stim_instance_map
+                );
+                let train_options_fnames = getOptionsFileNames(
+                    train_options,
+                    stim_to_task_feature_map,
+                    task_to_stim_instance_map
+                );
+
+
+                // Test trials
+                const test_samples = generateTrials(
+                    conjunctions,
+                    TEST_COMBS,
+                    start_features,
+                    feat_tmat_likely,
+                    inst_tmat_likely,
+                    n_repeats = N_TEST_CONJ_REPEATS,
+                    match_comb_to_target = false,
+                    non_match_level_freq = 1,
+                    shuffle_all = true
+                )
+                let test_correct_compositions = test_samples['correct_compositions'];
+                let test_targets = test_samples['targets'];
+                let test_options = test_samples['options'];
+
+                // Get stimulus file names
+                let test_targets_fnames = getTrialFileNames(
+                    test_targets,
+                    stim_to_task_feature_map,
+                    task_to_stim_instance_map
+                );
+                let test_options_fnames = getOptionsFileNames(
+                    test_options,
+                    stim_to_task_feature_map,
+                    task_to_stim_instance_map
+                );
+
+
+                ////////////////////////////////////////////////////////
+                // Generate choice phase timeline variables //
+                ////////////////////////////////////////////////////////
+                /*
+                // Compile transition training practice trial information
+                let practice_ttrain_trial_info = [];
+                for (let i = 0; i < practice_ttrain_actions.length; i++) {
+                    practice_ttrain_trial_info.push({
+                        'task_phase': 'train_transitions',
+                        'stimuli': practice_ttrain_actions[i],
+                        'stimuli_fname': practice_ttrain_fnames[i],
+                        'target': practice_ttrain_targets[i],
+                        'target_fname': practice_ttrain_targets_fnames[i],
+                        'reward_offer': 0,
+                        'terminal': 0,
+                        'correct_response': practice_ttrain_correct_responses[i],
+                        'practice': 1
+                    });
+                }
+                */
+
+                // Compile transition training trial information
+                let train_trial_info = [];
+                for (let i = 0; i < train_targets.length; i++) {
+                    if (i % (train_targets.length/N_TRAINING_BLOCKS) == 0) {
+                        train_trial_info.push([]);
+                    }
+                    train_trial_info[train_trial_info.length - 1].push({
+                        'task_phase': 'training',
+                        'options': train_options[i],
+                        'options_fnames': train_options_fnames[i],
+                        'target': train_targets[i],
+                        'target_fname': train_targets_fnames[i],
+                        'correct_composition': train_correct_compositions[i],
+                        'practice': 0
+                    });
+                }
+                
+                // Compile test trial information
+                let test_trial_info = [];
+                for (let i = 0; i < test_targets.length; i++) {
+                    if (i % (test_targets.length/N_TEST_BLOCKS) == 0) {
+                        test_trial_info.push([]);
+                    }
+                    test_trial_info[test_trial_info.length - 1].push({
+                        'task_phase': 'test',
+                        'options': test_options[i],
+                        'options_fnames': test_options_fnames[i],
+                        'target': test_targets[i],
+                        'target_fname': test_targets_fnames[i],
+                        'correct_composition': test_correct_compositions[i],
+                        'practice': 0
+                    });
+                }
+                
+                
+                ////////////////////////////////////////////////////////
+                // Fill session_info dict //
+                ////////////////////////////////////////////////////////
+
+                // Only keep unique phase stimulus file names
+                /*
+                const practice_fnames = getUniqueNonZeroValues([].concat(
+                        practice_ttrain_targets_fnames,
+                        practice_ttrain_fnames
+                ));
+                */
+
+                // Get training filenames for preloading
+                let all_train_conjs = [];
+                for (const comb of TRAINING_COMBS) {
+                    all_train_conjs = all_train_conjs.concat(
+                        conjunctions[comb]['start'],
+                        conjunctions[comb]['terminal']
+                    );
+                };
+                let train_fnames = [];
+                train_fnames = train_fnames.concat(
+                    getTrialFileNames(
+                        all_train_conjs,
+                        stim_to_task_feature_map,
+                        task_to_stim_instance_map,
+                        random_flip = false,
+                        all_flip = true
+                    )
+                )
+                train_fnames = train_fnames.concat(
+                    getTrialFileNames(
+                        all_train_conjs,
+                        stim_to_task_feature_map,
+                        task_to_stim_instance_map,
+                        random_flip = false,
+                        all_flip = false
+                    )
+                )
+                
+                // Get test filenames for preloading
+                let all_test_conjs = [];
+                for (const comb of TEST_COMBS) {
+                    all_test_conjs = all_test_conjs.concat(
+                        conjunctions[comb]['start'],
+                        conjunctions[comb]['terminal']
+                    );
+                };
+                let test_fnames = [];
+                test_fnames = test_fnames.concat(
+                    getTrialFileNames(
+                        all_test_conjs,
+                        stim_to_task_feature_map,
+                        task_to_stim_instance_map,
+                        random_flip = false,
+                        all_flip = true
+                    )
+                )
+                test_fnames = test_fnames.concat(
+                    getTrialFileNames(
+                        all_test_conjs,
+                        stim_to_task_feature_map,
+                        task_to_stim_instance_map,
+                        random_flip = false,
+                        all_flip = false
+                    )
+                )
+
+                // Fill info
+                session_info[[seed, condition]] = {
+                    //'practice_ttrain_trial_info': practice_ttrain_trial_info,
+                    'train_trial_info': train_trial_info,
+                    'test_trial_info': test_trial_info,
+                    //'practice_fnames': practice_fnames,
+                    'train_fnames': train_fnames,
+                    'test_fnames': test_fnames,
+                    'feature_fnames': feature_fnames,
+                    'stim_to_task_feature_map': stim_to_task_feature_map,
+                    'stim_to_task_instance_map': stim_to_task_instance_map,
+                    'task_to_stim_feature_map': task_to_stim_feature_map,
+                    'task_to_stim_instance_map': task_to_stim_instance_map
+                };
+                
+            };
+        };
+
+        /////////////////////////////////////////////////////////////////
+        // Save js or json //
+        /////////////////////////////////////////////////////////////////
+
+        let count = 0;
+        Object.keys(session_info).forEach((key) => {
+            const condition_info = key.replace(',', '-');
+            const fname = `session-info_${condition_info}.js`;
+            //saveDictionaryAsJSONWithDelay(session_info[key], fname, count*DOWNLOAD_DELAY_TIME);
+            saveDictionaryWithDelay(
+                session_info[key],
+                SESSION_INFO_EXTENSION,
+                fname,
+                delay_time = count*DOWNLOAD_DELAY_TIME,
+                var_name = 'session_info'
+            );
+            count += 1;
+        });
+        
+    </script>
+
+</body>
+</html>
