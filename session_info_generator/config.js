@@ -37,7 +37,7 @@ const ENCODING_FEAT_LABELS = {
 }
 const STIM_INSTS = [1, 2, 3, 4, 5, 6];
 const N_FEATS = 4;
-const N_INSTS = 4;
+const N_INSTS = 6;
 const N_PER = 2;
 const TRAINING_COMBS = [
     [1,1,0,0],
