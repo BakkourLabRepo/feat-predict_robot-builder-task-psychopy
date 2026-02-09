@@ -143,6 +143,7 @@ function generateTrials(
         let comb_correct_compositions = [];
         let comb_targets = [];
         let comb_options = [];
+        let comb_steps = [];
         for (const target_comb of combs) {
             
             // If matching composition and target features
@@ -158,7 +159,7 @@ function generateTrials(
                 for (const start of conjunctions[target_comb]['start'][step]) {
 
                     // Get target
-                    target = getSuccessor(start, instance_tmat, feature_tmat)
+                    const target = getSuccessor(start, instance_tmat, feature_tmat)
 
                     // Does the conjunction's features have different
                     // instance levels? (e.g. [3, 2, 0, 0] not [3, 3, 0, 0])
@@ -194,20 +195,29 @@ function generateTrials(
                             )
                         ])
                     };
+
+                    // Track which step this trial is
+                    comb_steps = comb_steps.concat(
+                        createRepeatingArray(
+                            step,
+                            conj_rate
+                        )
+                    )
     
                 };
             };
         };
 
-        // Permute trial order
+        // Shuffle trial order
         const idx = jsPsych.randomization.shuffleNoRepeats(
             createIntArray(comb_targets.length)
         );
         comb_correct_compositions = sortByIndex(comb_correct_compositions, idx);
         comb_targets = sortByIndex(comb_targets, idx);
-
+        comb_options = sortByIndex(comb_options, idx);
+        
         // Add to full set
-        correct_compositions = targets.concat(comb_correct_compositions);
+        correct_compositions = correct_compositions.concat(comb_correct_compositions);
         targets = targets.concat(comb_targets);
         options = options.concat(comb_options);
     };
