@@ -35,11 +35,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -49,7 +49,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-6_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -92,12 +92,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -154,7 +154,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -163,7 +163,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-0_he-5_ar-4_an-0.png",
+        "target_fname": "img/bo-0_he-6_ar-4_an-0.png",
         "correct_composition": [
           4,
           3,
@@ -206,11 +206,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -220,7 +220,7 @@
           6,
           6
         ],
-        "target_fname": "img/bo-0_he-6_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
         "correct_composition": [
           5,
           5,
@@ -263,12 +263,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -277,7 +277,7 @@
           6,
           1
         ],
-        "target_fname": "img/bo-0_he-5_ar-4_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-4_an-0_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -321,7 +321,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -334,7 +334,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-0_he-5_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-6_ar-1_an-0.png",
         "correct_composition": [
           4,
           3,
@@ -382,7 +382,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -391,7 +391,7 @@
           5,
           5
         ],
-        "target_fname": "img/bo-0_he-6_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0.png",
         "correct_composition": [
           4,
           4,
@@ -435,11 +435,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -448,7 +448,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-1_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-2_ar-1_an-0.png",
         "correct_composition": [
           5,
           2,
@@ -496,7 +496,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -505,7 +505,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-0_he-1_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-1_an-0_flipped.png",
         "correct_composition": [
           3,
           4,
@@ -553,7 +553,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -562,7 +562,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-0_he-1_ar-4_an-0.png",
+        "target_fname": "img/bo-0_he-2_ar-4_an-0.png",
         "correct_composition": [
           4,
           3,
@@ -605,11 +605,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -619,7 +619,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-6_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -667,7 +667,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -676,7 +676,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-0_he-1_ar-4_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-4_an-0_flipped.png",
         "correct_composition": [
           4,
           3,
@@ -720,7 +720,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -776,7 +776,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -838,7 +838,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -847,7 +847,7 @@
           2,
           2
         ],
-        "target_fname": "img/bo-0_he-5_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-1_an-0_flipped.png",
         "correct_composition": [
           3,
           3,
@@ -890,12 +890,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -951,7 +951,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -961,7 +961,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-3_he-0_ar-0_an-1.png",
+        "target_fname": "img/bo-3_he-0_ar-0_an-6.png",
         "correct_composition": [
           3,
           4,
@@ -1005,7 +1005,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -1062,7 +1062,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -1075,7 +1075,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-5_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-1_flipped.png",
         "correct_composition": [
           3,
           4,
@@ -1118,12 +1118,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -1132,7 +1132,7 @@
           6,
           6
         ],
-        "target_fname": "img/bo-3_he-0_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-3_he-0_ar-0_an-6_flipped.png",
         "correct_composition": [
           5,
           5,
@@ -1179,7 +1179,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -1189,7 +1189,7 @@
           2,
           2
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-3.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3.png",
         "correct_composition": [
           3,
           3,
@@ -1237,7 +1237,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -1246,7 +1246,7 @@
           5,
           5
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-6.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-5.png",
         "correct_composition": [
           4,
           4,
@@ -1289,12 +1289,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -1303,7 +1303,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-6.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-5.png",
         "correct_composition": [
           2,
           2,
@@ -1346,12 +1346,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -1360,7 +1360,7 @@
           6,
           1
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -1403,11 +1403,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -1417,7 +1417,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-5_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-1_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -1460,7 +1460,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -1474,7 +1474,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-6_flipped.png",
         "correct_composition": [
           3,
           4,
@@ -1517,11 +1517,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -1531,7 +1531,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-5.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-1.png",
         "correct_composition": [
           5,
           2,
@@ -1575,11 +1575,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -1588,7 +1588,7 @@
           6,
           1
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-6_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-5_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -1636,7 +1636,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -1645,7 +1645,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-6_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-5_flipped.png",
         "correct_composition": [
           3,
           4,
@@ -1688,12 +1688,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -1749,7 +1749,64 @@
             "img/bo-0_he-0_ar-0_an-2.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-4_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "target_fname": "img/bo-1_he-0_ar-0_an-6.png",
+        "correct_composition": [
+          4,
+          3,
+          0,
+          0
+        ],
+        "practice": 0
+      },
+      {
+        "task_phase": "training",
+        "options": [
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-4.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ],
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -1773,63 +1830,6 @@
         "options": [
           [
             [
-              3,
-              0,
-              0,
-              0
-            ],
-            [
-              4,
-              0,
-              0,
-              0
-            ]
-          ],
-          [
-            [
-              0,
-              4,
-              0,
-              0
-            ],
-            [
-              0,
-              3,
-              0,
-              0
-            ]
-          ]
-        ],
-        "options_fnames": [
-          [
-            "img/bo-0_he-0_ar-0_an-4.png",
-            "img/bo-0_he-0_ar-0_an-2.png"
-          ],
-          [
-            "img/bo-1_he-0_ar-0_an-0.png",
-            "img/bo-4_he-0_ar-0_an-0.png"
-          ]
-        ],
-        "target": [
-          0,
-          0,
-          2,
-          5
-        ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-5.png",
-        "correct_composition": [
-          4,
-          3,
-          0,
-          0
-        ],
-        "practice": 0
-      },
-      {
-        "task_phase": "training",
-        "options": [
-          [
-            [
               0,
               5,
               0,
@@ -1860,11 +1860,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -1915,12 +1915,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -1976,7 +1976,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -2028,7 +2028,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -2085,7 +2085,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -2141,7 +2141,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -2202,7 +2202,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -2253,7 +2253,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -2310,7 +2310,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -2365,11 +2365,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -2425,7 +2425,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -2477,12 +2477,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -2533,12 +2533,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -2590,11 +2590,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -2646,11 +2646,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -2701,7 +2701,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -2758,7 +2758,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -2813,11 +2813,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -2869,12 +2869,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -2926,7 +2926,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -2982,7 +2982,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -3038,7 +3038,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -3093,12 +3093,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -3150,11 +3150,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -3205,12 +3205,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -3266,7 +3266,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -3318,11 +3318,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -3374,11 +3374,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -3429,7 +3429,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -3485,7 +3485,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -3541,124 +3541,124 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
-          ],
-          [
-            "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
-          ]
-        ],
-        "target": [
-          0,
-          0,
-          1,
-          1
-        ],
-        "correct_composition": [
-          2,
-          2,
-          0,
-          0
-        ],
-        "practice": 0
-      },
-      {
-        "task_phase": "training",
-        "options": [
-          [
-            [
-              2,
-              0,
-              0,
-              0
-            ],
-            [
-              5,
-              0,
-              0,
-              0
-            ]
-          ],
-          [
-            [
-              0,
-              5,
-              0,
-              0
-            ],
-            [
-              0,
-              2,
-              0,
-              0
-            ]
-          ]
-        ],
-        "options_fnames": [
-          [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
-          ],
-          [
-            "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
-          ]
-        ],
-        "target": [
-          0,
-          0,
-          1,
-          1
-        ],
-        "correct_composition": [
-          2,
-          2,
-          0,
-          0
-        ],
-        "practice": 0
-      },
-      {
-        "task_phase": "training",
-        "options": [
-          [
-            [
-              0,
-              5,
-              0,
-              0
-            ],
-            [
-              0,
-              2,
-              0,
-              0
-            ]
-          ],
-          [
-            [
-              5,
-              0,
-              0,
-              0
-            ],
-            [
-              2,
-              0,
-              0,
-              0
-            ]
-          ]
-        ],
-        "options_fnames": [
-          [
-            "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
-          ],
-          [
-            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-1.png",
             "img/bo-0_he-0_ar-0_an-5.png"
+          ],
+          [
+            "img/bo-6_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "correct_composition": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "practice": 0
+      },
+      {
+        "task_phase": "training",
+        "options": [
+          [
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
+          ],
+          [
+            "img/bo-6_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "correct_composition": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "practice": 0
+      },
+      {
+        "task_phase": "training",
+        "options": [
+          [
+            [
+              0,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-6_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -3709,11 +3709,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -3765,12 +3765,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -3821,12 +3821,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -3877,7 +3877,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -3934,11 +3934,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -3989,11 +3989,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -4049,7 +4049,7 @@
             "img/bo-0_he-0_ar-0_an-2.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -4107,8 +4107,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -4159,8 +4159,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -4216,7 +4216,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -4271,8 +4271,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -4331,8 +4331,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -4387,7 +4387,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -4439,8 +4439,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -4495,8 +4495,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -4551,7 +4551,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -4607,8 +4607,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -4667,8 +4667,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -4719,7 +4719,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -4779,8 +4779,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -4835,8 +4835,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -4891,8 +4891,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -4944,7 +4944,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -5003,7 +5003,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -5056,7 +5056,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -5111,7 +5111,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -5167,8 +5167,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -5223,8 +5223,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -5283,8 +5283,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -5335,8 +5335,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -5395,8 +5395,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -5447,7 +5447,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -5508,7 +5508,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -5559,8 +5559,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -5615,8 +5615,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -5675,7 +5675,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -5731,7 +5731,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -5783,7 +5783,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -5839,7 +5839,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -5899,7 +5899,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -5951,8 +5951,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -6011,7 +6011,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -6063,8 +6063,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -6126,7 +6126,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -6181,8 +6181,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -6233,8 +6233,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -6293,8 +6293,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -6349,8 +6349,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -6402,7 +6402,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -6457,8 +6457,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -6513,8 +6513,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -6569,8 +6569,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -6629,8 +6629,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -6685,7 +6685,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -6741,7 +6741,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -6794,7 +6794,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -6853,7 +6853,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -6905,8 +6905,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -6965,8 +6965,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -7018,7 +7018,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -7077,8 +7077,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -7130,7 +7130,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -7186,7 +7186,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -7245,7 +7245,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -7301,8 +7301,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -7354,7 +7354,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -7409,7 +7409,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -7466,7 +7466,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -7523,122 +7523,122 @@
           [
             "img/bo-0_he-0_ar-6_an-0.png",
             "img/bo-0_he-0_ar-5_an-0.png"
-          ],
-          [
-            "img/bo-0_he-2_ar-0_an-0.png",
-            "img/bo-0_he-4_ar-0_an-0.png"
-          ]
-        ],
-        "target": [
-          2,
-          5,
-          0,
-          0
-        ],
-        "correct_composition": [
-          0,
-          0,
-          4,
-          3
-        ],
-        "practice": 0
-      },
-      {
-        "task_phase": "training",
-        "options": [
-          [
-            [
-              0,
-              0,
-              3,
-              0
-            ],
-            [
-              0,
-              0,
-              4,
-              0
-            ]
-          ],
-          [
-            [
-              0,
-              0,
-              0,
-              3
-            ],
-            [
-              0,
-              0,
-              0,
-              4
-            ]
-          ]
-        ],
-        "options_fnames": [
-          [
-            "img/bo-0_he-0_ar-5_an-0.png",
-            "img/bo-0_he-0_ar-6_an-0.png"
-          ],
-          [
-            "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
-          ]
-        ],
-        "target": [
-          2,
-          5,
-          0,
-          0
-        ],
-        "correct_composition": [
-          0,
-          0,
-          4,
-          3
-        ],
-        "practice": 0
-      },
-      {
-        "task_phase": "training",
-        "options": [
-          [
-            [
-              0,
-              0,
-              5,
-              0
-            ],
-            [
-              0,
-              0,
-              2,
-              0
-            ]
-          ],
-          [
-            [
-              0,
-              0,
-              0,
-              2
-            ],
-            [
-              0,
-              0,
-              0,
-              5
-            ]
-          ]
-        ],
-        "options_fnames": [
-          [
-            "img/bo-0_he-0_ar-1_an-0.png",
-            "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
             "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-4_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          2,
+          5,
+          0,
+          0
+        ],
+        "correct_composition": [
+          0,
+          0,
+          4,
+          3
+        ],
+        "practice": 0
+      },
+      {
+        "task_phase": "training",
+        "options": [
+          [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-5_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ],
+          [
+            "img/bo-0_he-4_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          2,
+          5,
+          0,
+          0
+        ],
+        "correct_composition": [
+          0,
+          0,
+          4,
+          3
+        ],
+        "practice": 0
+      },
+      {
+        "task_phase": "training",
+        "options": [
+          [
+            [
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              5
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-1_an-0.png",
+            "img/bo-0_he-0_ar-4_an-0.png"
+          ],
+          [
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -7694,7 +7694,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -7746,7 +7746,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -7805,8 +7805,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -7857,8 +7857,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -7913,8 +7913,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -7969,7 +7969,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -8030,7 +8030,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -8082,7 +8082,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -8146,7 +8146,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -8202,8 +8202,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -8255,8 +8255,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -8316,8 +8316,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -8369,12 +8369,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -8383,7 +8383,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-6_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -8440,7 +8440,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-6.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-5.png",
         "correct_composition": [
           0,
           0,
@@ -8484,11 +8484,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -8497,7 +8497,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -8540,7 +8540,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -8554,7 +8554,7 @@
           2,
           0
         ],
-        "target_fname": "img/bo-0_he-0_ar-4_an-5_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-4_an-1_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -8611,7 +8611,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-0_he-0_ar-1_an-5_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-1_an-1_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -8658,7 +8658,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -8668,7 +8668,7 @@
           2,
           0
         ],
-        "target_fname": "img/bo-0_he-5_ar-4_an-0.png",
+        "target_fname": "img/bo-0_he-6_ar-4_an-0.png",
         "correct_composition": [
           0,
           3,
@@ -8716,7 +8716,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -8768,12 +8768,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -8782,7 +8782,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-0_he-6_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
         "correct_composition": [
           2,
           0,
@@ -8825,12 +8825,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -8839,7 +8839,7 @@
           6,
           6
         ],
-        "target_fname": "img/bo-5_he-6_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           5,
           5,
@@ -8882,8 +8882,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -8896,7 +8896,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-5_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-0_an-1_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -8940,7 +8940,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -8953,7 +8953,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-5.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-1.png",
         "correct_composition": [
           3,
           0,
@@ -9001,7 +9001,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -9010,7 +9010,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-1_ar-4_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-4_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -9057,7 +9057,7 @@
             "img/bo-0_he-0_ar-0_an-2.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -9067,7 +9067,7 @@
           2,
           2
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-1.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-6.png",
         "correct_composition": [
           3,
           3,
@@ -9111,11 +9111,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -9124,7 +9124,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -9167,7 +9167,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -9181,7 +9181,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-6.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-5.png",
         "correct_composition": [
           0,
           2,
@@ -9224,7 +9224,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -9238,7 +9238,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-6.png",
+        "target_fname": "img/bo-0_he-6_ar-0_an-5.png",
         "correct_composition": [
           0,
           0,
@@ -9281,12 +9281,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -9295,7 +9295,7 @@
           6,
           6
         ],
-        "target_fname": "img/bo-0_he-5_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-1_an-0_flipped.png",
         "correct_composition": [
           5,
           5,
@@ -9339,11 +9339,11 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -9395,7 +9395,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -9409,7 +9409,7 @@
           5,
           5
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-5_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-1_flipped.png",
         "correct_composition": [
           4,
           4,
@@ -9452,12 +9452,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -9466,7 +9466,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-6_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-0_an-5_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -9509,7 +9509,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -9523,7 +9523,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-2_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-5_he-2_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -9566,7 +9566,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -9580,7 +9580,7 @@
           0,
           5
         ],
-        "target_fname": "img/bo-5_he-6_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-5_ar-0_an-0.png",
         "correct_composition": [
           4,
           0,
@@ -9628,7 +9628,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -9637,7 +9637,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-0_he-6_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -9680,7 +9680,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -9737,8 +9737,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -9751,7 +9751,7 @@
           6,
           6
         ],
-        "target_fname": "img/bo-0_he-0_ar-1_an-6_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-1_an-5_flipped.png",
         "correct_composition": [
           5,
           5,
@@ -9799,7 +9799,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -9808,7 +9808,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-1.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-6.png",
         "correct_composition": [
           3,
           0,
@@ -9851,7 +9851,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -9865,7 +9865,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-6_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-3_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -9908,11 +9908,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -9922,7 +9922,7 @@
           6,
           6
         ],
-        "target_fname": "img/bo-0_he-0_ar-4_an-6.png",
+        "target_fname": "img/bo-0_he-0_ar-4_an-5.png",
         "correct_composition": [
           5,
           5,
@@ -9966,11 +9966,11 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -10026,8 +10026,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -10036,7 +10036,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-2_he-0_ar-1_an-0.png",
+        "target_fname": "img/bo-5_he-0_ar-1_an-0.png",
         "correct_composition": [
           0,
           2,
@@ -10080,11 +10080,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -10093,7 +10093,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-2_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-5_he-2_ar-0_an-0.png",
         "correct_composition": [
           5,
           0,
@@ -10137,7 +10137,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -10150,7 +10150,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-3.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -10197,7 +10197,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -10254,8 +10254,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -10264,7 +10264,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-3_he-0_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-3_he-0_ar-0_an-6_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -10312,7 +10312,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -10364,7 +10364,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -10378,7 +10378,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-5_he-3_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-3_ar-0_an-0.png",
         "correct_composition": [
           0,
           4,
@@ -10426,7 +10426,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -10435,7 +10435,7 @@
           5,
           5
         ],
-        "target_fname": "img/bo-0_he-1_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-1_an-0_flipped.png",
         "correct_composition": [
           4,
           4,
@@ -10479,7 +10479,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -10492,7 +10492,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-2_he-0_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-1_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -10535,8 +10535,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -10592,12 +10592,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -10606,7 +10606,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-1.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-6.png",
         "correct_composition": [
           0,
           5,
@@ -10650,7 +10650,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -10663,7 +10663,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-3_ar-0_an-1.png",
+        "target_fname": "img/bo-0_he-3_ar-0_an-6.png",
         "correct_composition": [
           0,
           0,
@@ -10706,11 +10706,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -10720,7 +10720,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-3_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-3_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -10763,12 +10763,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -10777,7 +10777,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-0_ar-4_an-6_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-4_an-5_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -10821,7 +10821,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -10834,7 +10834,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-1_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-6_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -10891,7 +10891,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-6.png",
+        "target_fname": "img/bo-0_he-2_ar-0_an-5.png",
         "correct_composition": [
           0,
           4,
@@ -10934,11 +10934,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -10948,7 +10948,7 @@
           2,
           0
         ],
-        "target_fname": "img/bo-5_he-3_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-3_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -10991,12 +10991,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -11005,7 +11005,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-3_he-6_ar-0_an-0.png",
+        "target_fname": "img/bo-3_he-5_ar-0_an-0.png",
         "correct_composition": [
           2,
           0,
@@ -11048,7 +11048,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -11105,11 +11105,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -11119,7 +11119,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-0_he-0_ar-1_an-6.png",
+        "target_fname": "img/bo-0_he-0_ar-1_an-5.png",
         "correct_composition": [
           3,
           0,
@@ -11166,7 +11166,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -11176,7 +11176,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-5.png",
+        "target_fname": "img/bo-0_he-2_ar-0_an-1.png",
         "correct_composition": [
           4,
           3,
@@ -11223,7 +11223,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -11276,12 +11276,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -11290,7 +11290,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-5_ar-4_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-4_an-0_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -11334,7 +11334,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -11347,7 +11347,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-6_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-2_ar-0_an-0.png",
         "correct_composition": [
           0,
           4,
@@ -11395,7 +11395,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -11404,7 +11404,7 @@
           2,
           2
         ],
-        "target_fname": "img/bo-3_he-6_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-3_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           3,
           3,
@@ -11447,7 +11447,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -11461,7 +11461,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-0_he-6_ar-0_an-3.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
         "correct_composition": [
           3,
           4,
@@ -11508,8 +11508,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -11518,7 +11518,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-6_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -11565,7 +11565,7 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -11575,7 +11575,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-6_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-5_flipped.png",
         "correct_composition": [
           0,
           2,
@@ -11618,11 +11618,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -11632,7 +11632,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-0_ar-1_an-5.png",
+        "target_fname": "img/bo-0_he-0_ar-1_an-1.png",
         "correct_composition": [
           0,
           0,
@@ -11675,11 +11675,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -11689,7 +11689,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-2_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-5_he-6_ar-0_an-0.png",
         "correct_composition": [
           2,
           0,
@@ -11733,7 +11733,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -11793,8 +11793,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -11803,7 +11803,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
         "correct_composition": [
           0,
           2,
@@ -11850,8 +11850,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -11860,7 +11860,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-6_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-6_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -11904,7 +11904,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -11961,7 +11961,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -12021,7 +12021,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -12031,7 +12031,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-6_ar-0_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -12074,12 +12074,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -12131,8 +12131,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -12145,7 +12145,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-6_ar-0_an-0.png",
         "correct_composition": [
           2,
           0,
@@ -12189,11 +12189,11 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -12202,7 +12202,7 @@
           2,
           0
         ],
-        "target_fname": "img/bo-3_he-0_ar-0_an-1.png",
+        "target_fname": "img/bo-3_he-0_ar-0_an-6.png",
         "correct_composition": [
           0,
           3,
@@ -12246,7 +12246,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -12303,7 +12303,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -12316,7 +12316,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-1_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-6_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -12373,7 +12373,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-0_he-1_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-2_ar-1_an-0.png",
         "correct_composition": [
           0,
           4,
@@ -12420,7 +12420,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -12430,7 +12430,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-5_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-0_an-1_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -12478,7 +12478,7 @@
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -12530,12 +12530,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -12544,7 +12544,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-2_he-0_ar-4_an-0.png",
+        "target_fname": "img/bo-5_he-0_ar-4_an-0.png",
         "correct_composition": [
           3,
           0,
@@ -12587,12 +12587,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -12601,7 +12601,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-5.png",
+        "target_fname": "img/bo-0_he-6_ar-0_an-1.png",
         "correct_composition": [
           2,
           2,
@@ -12644,12 +12644,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -12702,7 +12702,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -12715,7 +12715,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-6_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-2_ar-0_an-0_flipped.png",
         "correct_composition": [
           4,
           3,
@@ -12772,7 +12772,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-6_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-5_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -12872,12 +12872,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -12886,7 +12886,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-2_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-5_he-6_ar-0_an-0_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -12929,7 +12929,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -12943,7 +12943,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-2_he-0_ar-4_an-0_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-4_an-0_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -12990,8 +12990,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -13000,7 +13000,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-0_ar-4_an-5.png",
+        "target_fname": "img/bo-0_he-0_ar-4_an-1.png",
         "correct_composition": [
           5,
           2,
@@ -13043,8 +13043,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -13057,7 +13057,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-1_ar-4_an-0.png",
+        "target_fname": "img/bo-0_he-2_ar-4_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -13100,12 +13100,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -13114,7 +13114,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-0_he-6_ar-0_an-1.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-6.png",
         "correct_composition": [
           5,
           0,
@@ -13157,12 +13157,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -13171,7 +13171,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-3_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-0_he-3_ar-0_an-6_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -13214,11 +13214,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -13228,7 +13228,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-6_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-0_an-5_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -13271,11 +13271,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -13285,7 +13285,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-5_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-6_ar-1_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -13328,7 +13328,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -13342,7 +13342,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-0_he-6_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -13386,7 +13386,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -13399,7 +13399,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -13443,7 +13443,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -13456,7 +13456,7 @@
           0,
           2
         ],
-        "target_fname": "img/bo-2_he-0_ar-0_an-5_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-1_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -13500,10 +13500,10 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -13513,7 +13513,7 @@
           0,
           5
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-5.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-1.png",
         "correct_composition": [
           4,
           0,
@@ -13557,11 +13557,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -13613,12 +13613,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -13670,11 +13670,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -13726,11 +13726,11 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -13785,7 +13785,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -13841,8 +13841,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -13898,7 +13898,7 @@
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -13954,7 +13954,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -14005,12 +14005,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -14061,12 +14061,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -14118,11 +14118,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -14173,11 +14173,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -14233,8 +14233,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -14285,12 +14285,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -14341,8 +14341,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -14398,7 +14398,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -14453,11 +14453,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -14514,7 +14514,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -14565,12 +14565,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -14622,7 +14622,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -14678,7 +14678,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -14733,8 +14733,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -14789,8 +14789,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -14845,11 +14845,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -14902,7 +14902,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -14962,7 +14962,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15013,7 +15013,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -15069,7 +15069,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -15126,11 +15126,11 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15181,7 +15181,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -15241,8 +15241,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -15293,8 +15293,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -15353,8 +15353,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15409,8 +15409,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -15461,8 +15461,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -15517,8 +15517,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -15573,12 +15573,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15630,7 +15630,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -15689,8 +15689,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -15746,7 +15746,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15801,8 +15801,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15909,12 +15909,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -15965,12 +15965,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16026,7 +16026,7 @@
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16077,7 +16077,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -16133,12 +16133,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -16190,7 +16190,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -16307,8 +16307,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16415,12 +16415,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16471,12 +16471,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16527,11 +16527,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -16584,11 +16584,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16643,8 +16643,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16695,11 +16695,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -16751,7 +16751,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -16864,11 +16864,11 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16924,7 +16924,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -16975,7 +16975,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -17031,12 +17031,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -17091,8 +17091,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -17144,7 +17144,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -17199,12 +17199,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -17311,8 +17311,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -17367,12 +17367,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -17423,7 +17423,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -17480,7 +17480,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -17539,7 +17539,7 @@
             "img/bo-0_he-0_ar-0_an-2.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -17591,7 +17591,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -17647,7 +17647,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -17707,8 +17707,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -17760,7 +17760,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -17816,7 +17816,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -17927,11 +17927,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -17983,12 +17983,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -18043,7 +18043,7 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -18096,7 +18096,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -18151,8 +18151,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -18211,7 +18211,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -18263,12 +18263,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -18324,7 +18324,7 @@
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -18380,7 +18380,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -18435,8 +18435,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -18543,12 +18543,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -18599,7 +18599,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -18659,8 +18659,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -18711,11 +18711,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -18823,11 +18823,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -18883,7 +18883,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -18991,7 +18991,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -19047,8 +19047,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -19104,10 +19104,10 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -19159,12 +19159,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19220,7 +19220,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19331,7 +19331,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -19383,12 +19383,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19443,8 +19443,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19495,12 +19495,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19551,12 +19551,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19607,12 +19607,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19664,7 +19664,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -19723,7 +19723,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -19831,12 +19831,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19887,12 +19887,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19948,7 +19948,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -19999,12 +19999,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -20059,7 +20059,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -20116,7 +20116,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -20171,7 +20171,7 @@
             "img/bo-0_he-0_ar-0_an-2.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -20283,7 +20283,7 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -20335,7 +20335,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -20395,7 +20395,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -20448,7 +20448,7 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -20507,7 +20507,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -20559,7 +20559,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -20615,11 +20615,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -20671,8 +20671,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -20727,7 +20727,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -20783,12 +20783,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -20843,8 +20843,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -20900,7 +20900,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -20951,12 +20951,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21007,11 +21007,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -21063,12 +21063,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -21123,7 +21123,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -21179,7 +21179,7 @@
             "img/bo-0_he-0_ar-0_an-2.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -21231,12 +21231,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21287,12 +21287,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21343,12 +21343,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -21399,12 +21399,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -21459,8 +21459,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21516,7 +21516,7 @@
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21567,8 +21567,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -21628,7 +21628,7 @@
           ],
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21679,12 +21679,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -21735,12 +21735,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -21791,12 +21791,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -21851,7 +21851,7 @@
             "img/bo-0_he-0_ar-5_an-0.png"
           ],
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ]
         ],
@@ -21903,12 +21903,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -21959,7 +21959,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -22019,8 +22019,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -22071,12 +22071,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -22127,12 +22127,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ]
         ],
         "target": [
@@ -22240,7 +22240,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -22351,7 +22351,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -22408,11 +22408,11 @@
         "options_fnames": [
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -22463,7 +22463,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
@@ -22520,10 +22520,10 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -22579,8 +22579,8 @@
             "img/bo-0_he-0_ar-1_an-0.png"
           ],
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -22631,11 +22631,11 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ]
         ],
@@ -22687,8 +22687,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -22743,12 +22743,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ]
         ],
         "target": [
@@ -22803,7 +22803,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -22855,7 +22855,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png",
             "img/bo-0_he-4_ar-0_an-0.png"
           ],
           [
@@ -22911,8 +22911,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-4_an-0.png",
@@ -23024,11 +23024,11 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -23083,8 +23083,8 @@
             "img/bo-0_he-0_ar-4_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -23135,8 +23135,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-1_ar-0_an-0.png",
-            "img/bo-0_he-5_ar-0_an-0.png"
+            "img/bo-0_he-2_ar-0_an-0.png",
+            "img/bo-0_he-6_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -23191,12 +23191,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-6.png",
-            "img/bo-0_he-0_ar-0_an-5.png"
+            "img/bo-0_he-0_ar-0_an-5.png",
+            "img/bo-0_he-0_ar-0_an-1.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -23247,7 +23247,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -23304,7 +23304,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-6_an-0.png",
@@ -23360,7 +23360,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -23415,12 +23415,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -23476,7 +23476,7 @@
           ],
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -23531,7 +23531,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -23588,7 +23588,7 @@
           ],
           [
             "img/bo-6_he-0_ar-0_an-0.png",
-            "img/bo-2_he-0_ar-0_an-0.png"
+            "img/bo-5_he-0_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -23640,7 +23640,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-2.png",
@@ -23699,7 +23699,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -23808,7 +23808,7 @@
         "options_fnames": [
           [
             "img/bo-0_he-4_ar-0_an-0.png",
-            "img/bo-0_he-2_ar-0_an-0.png"
+            "img/bo-0_he-1_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-0_an-4.png",
@@ -23919,7 +23919,7 @@
         ],
         "options_fnames": [
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ],
           [
@@ -23975,12 +23975,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -24031,12 +24031,12 @@
         ],
         "options_fnames": [
           [
-            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-5_he-0_ar-0_an-0.png",
             "img/bo-6_he-0_ar-0_an-0.png"
           ],
           [
-            "img/bo-0_he-5_ar-0_an-0.png",
-            "img/bo-0_he-1_ar-0_an-0.png"
+            "img/bo-0_he-6_ar-0_an-0.png",
+            "img/bo-0_he-2_ar-0_an-0.png"
           ]
         ],
         "target": [
@@ -24147,7 +24147,7 @@
             "img/bo-0_he-0_ar-0_an-4.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -24199,8 +24199,8 @@
         ],
         "options_fnames": [
           [
-            "img/bo-0_he-0_ar-0_an-5.png",
-            "img/bo-0_he-0_ar-0_an-6.png"
+            "img/bo-0_he-0_ar-0_an-1.png",
+            "img/bo-0_he-0_ar-0_an-5.png"
           ],
           [
             "img/bo-0_he-0_ar-1_an-0.png",
@@ -24259,7 +24259,7 @@
             "img/bo-0_he-0_ar-6_an-0.png"
           ],
           [
-            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png",
             "img/bo-4_he-0_ar-0_an-0.png"
           ]
         ],
@@ -24312,7 +24312,7 @@
         "options_fnames": [
           [
             "img/bo-4_he-0_ar-0_an-0.png",
-            "img/bo-1_he-0_ar-0_an-0.png"
+            "img/bo-2_he-0_ar-0_an-0.png"
           ],
           [
             "img/bo-0_he-0_ar-5_an-0.png",
@@ -24337,213 +24337,213 @@
   ],
   "train_fnames": [
     "img/bo-4_he-0_ar-0_an-4_flipped.png",
-    "img/bo-1_he-0_ar-0_an-4_flipped.png",
+    "img/bo-2_he-0_ar-0_an-4_flipped.png",
     "img/bo-4_he-0_ar-0_an-2_flipped.png",
-    "img/bo-1_he-0_ar-0_an-2_flipped.png",
-    "img/bo-2_he-0_ar-0_an-5_flipped.png",
-    "img/bo-6_he-0_ar-0_an-5_flipped.png",
-    "img/bo-2_he-0_ar-0_an-6_flipped.png",
-    "img/bo-6_he-0_ar-0_an-6_flipped.png",
-    "img/bo-3_he-0_ar-0_an-3_flipped.png",
-    "img/bo-5_he-0_ar-0_an-3_flipped.png",
-    "img/bo-3_he-0_ar-0_an-1_flipped.png",
+    "img/bo-2_he-0_ar-0_an-2_flipped.png",
     "img/bo-5_he-0_ar-0_an-1_flipped.png",
+    "img/bo-6_he-0_ar-0_an-1_flipped.png",
+    "img/bo-5_he-0_ar-0_an-5_flipped.png",
+    "img/bo-6_he-0_ar-0_an-5_flipped.png",
+    "img/bo-3_he-0_ar-0_an-3_flipped.png",
+    "img/bo-1_he-0_ar-0_an-3_flipped.png",
+    "img/bo-3_he-0_ar-0_an-6_flipped.png",
+    "img/bo-1_he-0_ar-0_an-6_flipped.png",
     "img/bo-0_he-4_ar-5_an-0_flipped.png",
-    "img/bo-0_he-2_ar-5_an-0_flipped.png",
+    "img/bo-0_he-1_ar-5_an-0_flipped.png",
     "img/bo-0_he-4_ar-6_an-0_flipped.png",
-    "img/bo-0_he-2_ar-6_an-0_flipped.png",
-    "img/bo-0_he-1_ar-4_an-0_flipped.png",
-    "img/bo-0_he-5_ar-4_an-0_flipped.png",
-    "img/bo-0_he-1_ar-1_an-0_flipped.png",
-    "img/bo-0_he-5_ar-1_an-0_flipped.png",
+    "img/bo-0_he-1_ar-6_an-0_flipped.png",
+    "img/bo-0_he-2_ar-4_an-0_flipped.png",
+    "img/bo-0_he-6_ar-4_an-0_flipped.png",
+    "img/bo-0_he-2_ar-1_an-0_flipped.png",
+    "img/bo-0_he-6_ar-1_an-0_flipped.png",
     "img/bo-0_he-3_ar-2_an-0_flipped.png",
-    "img/bo-0_he-6_ar-2_an-0_flipped.png",
+    "img/bo-0_he-5_ar-2_an-0_flipped.png",
     "img/bo-0_he-3_ar-3_an-0_flipped.png",
-    "img/bo-0_he-6_ar-3_an-0_flipped.png",
+    "img/bo-0_he-5_ar-3_an-0_flipped.png",
     "img/bo-4_he-0_ar-0_an-4.png",
-    "img/bo-1_he-0_ar-0_an-4.png",
+    "img/bo-2_he-0_ar-0_an-4.png",
     "img/bo-4_he-0_ar-0_an-2.png",
-    "img/bo-1_he-0_ar-0_an-2.png",
-    "img/bo-2_he-0_ar-0_an-5.png",
-    "img/bo-6_he-0_ar-0_an-5.png",
-    "img/bo-2_he-0_ar-0_an-6.png",
-    "img/bo-6_he-0_ar-0_an-6.png",
-    "img/bo-3_he-0_ar-0_an-3.png",
-    "img/bo-5_he-0_ar-0_an-3.png",
-    "img/bo-3_he-0_ar-0_an-1.png",
+    "img/bo-2_he-0_ar-0_an-2.png",
     "img/bo-5_he-0_ar-0_an-1.png",
+    "img/bo-6_he-0_ar-0_an-1.png",
+    "img/bo-5_he-0_ar-0_an-5.png",
+    "img/bo-6_he-0_ar-0_an-5.png",
+    "img/bo-3_he-0_ar-0_an-3.png",
+    "img/bo-1_he-0_ar-0_an-3.png",
+    "img/bo-3_he-0_ar-0_an-6.png",
+    "img/bo-1_he-0_ar-0_an-6.png",
     "img/bo-0_he-4_ar-5_an-0.png",
-    "img/bo-0_he-2_ar-5_an-0.png",
+    "img/bo-0_he-1_ar-5_an-0.png",
     "img/bo-0_he-4_ar-6_an-0.png",
-    "img/bo-0_he-2_ar-6_an-0.png",
-    "img/bo-0_he-1_ar-4_an-0.png",
-    "img/bo-0_he-5_ar-4_an-0.png",
-    "img/bo-0_he-1_ar-1_an-0.png",
-    "img/bo-0_he-5_ar-1_an-0.png",
+    "img/bo-0_he-1_ar-6_an-0.png",
+    "img/bo-0_he-2_ar-4_an-0.png",
+    "img/bo-0_he-6_ar-4_an-0.png",
+    "img/bo-0_he-2_ar-1_an-0.png",
+    "img/bo-0_he-6_ar-1_an-0.png",
     "img/bo-0_he-3_ar-2_an-0.png",
-    "img/bo-0_he-6_ar-2_an-0.png",
+    "img/bo-0_he-5_ar-2_an-0.png",
     "img/bo-0_he-3_ar-3_an-0.png",
-    "img/bo-0_he-6_ar-3_an-0.png"
+    "img/bo-0_he-5_ar-3_an-0.png"
   ],
   "test_fnames": [
     "img/bo-4_he-0_ar-0_an-4_flipped.png",
-    "img/bo-1_he-0_ar-0_an-4_flipped.png",
+    "img/bo-2_he-0_ar-0_an-4_flipped.png",
     "img/bo-4_he-0_ar-0_an-2_flipped.png",
-    "img/bo-1_he-0_ar-0_an-2_flipped.png",
-    "img/bo-2_he-0_ar-0_an-5_flipped.png",
-    "img/bo-6_he-0_ar-0_an-5_flipped.png",
-    "img/bo-2_he-0_ar-0_an-6_flipped.png",
-    "img/bo-6_he-0_ar-0_an-6_flipped.png",
-    "img/bo-3_he-0_ar-0_an-3_flipped.png",
-    "img/bo-5_he-0_ar-0_an-3_flipped.png",
-    "img/bo-3_he-0_ar-0_an-1_flipped.png",
+    "img/bo-2_he-0_ar-0_an-2_flipped.png",
     "img/bo-5_he-0_ar-0_an-1_flipped.png",
+    "img/bo-6_he-0_ar-0_an-1_flipped.png",
+    "img/bo-5_he-0_ar-0_an-5_flipped.png",
+    "img/bo-6_he-0_ar-0_an-5_flipped.png",
+    "img/bo-3_he-0_ar-0_an-3_flipped.png",
+    "img/bo-1_he-0_ar-0_an-3_flipped.png",
+    "img/bo-3_he-0_ar-0_an-6_flipped.png",
+    "img/bo-1_he-0_ar-0_an-6_flipped.png",
     "img/bo-0_he-0_ar-5_an-4_flipped.png",
     "img/bo-0_he-0_ar-6_an-4_flipped.png",
     "img/bo-0_he-0_ar-5_an-2_flipped.png",
     "img/bo-0_he-0_ar-6_an-2_flipped.png",
+    "img/bo-0_he-0_ar-4_an-1_flipped.png",
+    "img/bo-0_he-0_ar-1_an-1_flipped.png",
     "img/bo-0_he-0_ar-4_an-5_flipped.png",
     "img/bo-0_he-0_ar-1_an-5_flipped.png",
-    "img/bo-0_he-0_ar-4_an-6_flipped.png",
-    "img/bo-0_he-0_ar-1_an-6_flipped.png",
     "img/bo-0_he-0_ar-2_an-3_flipped.png",
     "img/bo-0_he-0_ar-3_an-3_flipped.png",
-    "img/bo-0_he-0_ar-2_an-1_flipped.png",
-    "img/bo-0_he-0_ar-3_an-1_flipped.png",
+    "img/bo-0_he-0_ar-2_an-6_flipped.png",
+    "img/bo-0_he-0_ar-3_an-6_flipped.png",
     "img/bo-0_he-4_ar-0_an-4_flipped.png",
-    "img/bo-0_he-2_ar-0_an-4_flipped.png",
+    "img/bo-0_he-1_ar-0_an-4_flipped.png",
     "img/bo-0_he-4_ar-0_an-2_flipped.png",
-    "img/bo-0_he-2_ar-0_an-2_flipped.png",
-    "img/bo-0_he-1_ar-0_an-5_flipped.png",
-    "img/bo-0_he-5_ar-0_an-5_flipped.png",
-    "img/bo-0_he-1_ar-0_an-6_flipped.png",
-    "img/bo-0_he-5_ar-0_an-6_flipped.png",
-    "img/bo-0_he-3_ar-0_an-3_flipped.png",
-    "img/bo-0_he-6_ar-0_an-3_flipped.png",
-    "img/bo-0_he-3_ar-0_an-1_flipped.png",
+    "img/bo-0_he-1_ar-0_an-2_flipped.png",
+    "img/bo-0_he-2_ar-0_an-1_flipped.png",
     "img/bo-0_he-6_ar-0_an-1_flipped.png",
+    "img/bo-0_he-2_ar-0_an-5_flipped.png",
+    "img/bo-0_he-6_ar-0_an-5_flipped.png",
+    "img/bo-0_he-3_ar-0_an-3_flipped.png",
+    "img/bo-0_he-5_ar-0_an-3_flipped.png",
+    "img/bo-0_he-3_ar-0_an-6_flipped.png",
+    "img/bo-0_he-5_ar-0_an-6_flipped.png",
     "img/bo-4_he-0_ar-5_an-0_flipped.png",
     "img/bo-4_he-0_ar-6_an-0_flipped.png",
-    "img/bo-1_he-0_ar-5_an-0_flipped.png",
-    "img/bo-1_he-0_ar-6_an-0_flipped.png",
-    "img/bo-2_he-0_ar-4_an-0_flipped.png",
-    "img/bo-2_he-0_ar-1_an-0_flipped.png",
+    "img/bo-2_he-0_ar-5_an-0_flipped.png",
+    "img/bo-2_he-0_ar-6_an-0_flipped.png",
+    "img/bo-5_he-0_ar-4_an-0_flipped.png",
+    "img/bo-5_he-0_ar-1_an-0_flipped.png",
     "img/bo-6_he-0_ar-4_an-0_flipped.png",
     "img/bo-6_he-0_ar-1_an-0_flipped.png",
     "img/bo-3_he-0_ar-2_an-0_flipped.png",
     "img/bo-3_he-0_ar-3_an-0_flipped.png",
-    "img/bo-5_he-0_ar-2_an-0_flipped.png",
-    "img/bo-5_he-0_ar-3_an-0_flipped.png",
+    "img/bo-1_he-0_ar-2_an-0_flipped.png",
+    "img/bo-1_he-0_ar-3_an-0_flipped.png",
     "img/bo-4_he-4_ar-0_an-0_flipped.png",
-    "img/bo-4_he-2_ar-0_an-0_flipped.png",
-    "img/bo-1_he-4_ar-0_an-0_flipped.png",
-    "img/bo-1_he-2_ar-0_an-0_flipped.png",
+    "img/bo-4_he-1_ar-0_an-0_flipped.png",
+    "img/bo-2_he-4_ar-0_an-0_flipped.png",
     "img/bo-2_he-1_ar-0_an-0_flipped.png",
-    "img/bo-2_he-5_ar-0_an-0_flipped.png",
-    "img/bo-6_he-1_ar-0_an-0_flipped.png",
-    "img/bo-6_he-5_ar-0_an-0_flipped.png",
-    "img/bo-3_he-3_ar-0_an-0_flipped.png",
-    "img/bo-3_he-6_ar-0_an-0_flipped.png",
-    "img/bo-5_he-3_ar-0_an-0_flipped.png",
+    "img/bo-5_he-2_ar-0_an-0_flipped.png",
     "img/bo-5_he-6_ar-0_an-0_flipped.png",
+    "img/bo-6_he-2_ar-0_an-0_flipped.png",
+    "img/bo-6_he-6_ar-0_an-0_flipped.png",
+    "img/bo-3_he-3_ar-0_an-0_flipped.png",
+    "img/bo-3_he-5_ar-0_an-0_flipped.png",
+    "img/bo-1_he-3_ar-0_an-0_flipped.png",
+    "img/bo-1_he-5_ar-0_an-0_flipped.png",
     "img/bo-0_he-4_ar-5_an-0_flipped.png",
-    "img/bo-0_he-2_ar-5_an-0_flipped.png",
+    "img/bo-0_he-1_ar-5_an-0_flipped.png",
     "img/bo-0_he-4_ar-6_an-0_flipped.png",
-    "img/bo-0_he-2_ar-6_an-0_flipped.png",
-    "img/bo-0_he-1_ar-4_an-0_flipped.png",
-    "img/bo-0_he-5_ar-4_an-0_flipped.png",
-    "img/bo-0_he-1_ar-1_an-0_flipped.png",
-    "img/bo-0_he-5_ar-1_an-0_flipped.png",
+    "img/bo-0_he-1_ar-6_an-0_flipped.png",
+    "img/bo-0_he-2_ar-4_an-0_flipped.png",
+    "img/bo-0_he-6_ar-4_an-0_flipped.png",
+    "img/bo-0_he-2_ar-1_an-0_flipped.png",
+    "img/bo-0_he-6_ar-1_an-0_flipped.png",
     "img/bo-0_he-3_ar-2_an-0_flipped.png",
-    "img/bo-0_he-6_ar-2_an-0_flipped.png",
+    "img/bo-0_he-5_ar-2_an-0_flipped.png",
     "img/bo-0_he-3_ar-3_an-0_flipped.png",
-    "img/bo-0_he-6_ar-3_an-0_flipped.png",
+    "img/bo-0_he-5_ar-3_an-0_flipped.png",
     "img/bo-4_he-0_ar-0_an-4.png",
-    "img/bo-1_he-0_ar-0_an-4.png",
+    "img/bo-2_he-0_ar-0_an-4.png",
     "img/bo-4_he-0_ar-0_an-2.png",
-    "img/bo-1_he-0_ar-0_an-2.png",
-    "img/bo-2_he-0_ar-0_an-5.png",
-    "img/bo-6_he-0_ar-0_an-5.png",
-    "img/bo-2_he-0_ar-0_an-6.png",
-    "img/bo-6_he-0_ar-0_an-6.png",
-    "img/bo-3_he-0_ar-0_an-3.png",
-    "img/bo-5_he-0_ar-0_an-3.png",
-    "img/bo-3_he-0_ar-0_an-1.png",
+    "img/bo-2_he-0_ar-0_an-2.png",
     "img/bo-5_he-0_ar-0_an-1.png",
+    "img/bo-6_he-0_ar-0_an-1.png",
+    "img/bo-5_he-0_ar-0_an-5.png",
+    "img/bo-6_he-0_ar-0_an-5.png",
+    "img/bo-3_he-0_ar-0_an-3.png",
+    "img/bo-1_he-0_ar-0_an-3.png",
+    "img/bo-3_he-0_ar-0_an-6.png",
+    "img/bo-1_he-0_ar-0_an-6.png",
     "img/bo-0_he-0_ar-5_an-4.png",
     "img/bo-0_he-0_ar-6_an-4.png",
     "img/bo-0_he-0_ar-5_an-2.png",
     "img/bo-0_he-0_ar-6_an-2.png",
+    "img/bo-0_he-0_ar-4_an-1.png",
+    "img/bo-0_he-0_ar-1_an-1.png",
     "img/bo-0_he-0_ar-4_an-5.png",
     "img/bo-0_he-0_ar-1_an-5.png",
-    "img/bo-0_he-0_ar-4_an-6.png",
-    "img/bo-0_he-0_ar-1_an-6.png",
     "img/bo-0_he-0_ar-2_an-3.png",
     "img/bo-0_he-0_ar-3_an-3.png",
-    "img/bo-0_he-0_ar-2_an-1.png",
-    "img/bo-0_he-0_ar-3_an-1.png",
+    "img/bo-0_he-0_ar-2_an-6.png",
+    "img/bo-0_he-0_ar-3_an-6.png",
     "img/bo-0_he-4_ar-0_an-4.png",
-    "img/bo-0_he-2_ar-0_an-4.png",
+    "img/bo-0_he-1_ar-0_an-4.png",
     "img/bo-0_he-4_ar-0_an-2.png",
-    "img/bo-0_he-2_ar-0_an-2.png",
-    "img/bo-0_he-1_ar-0_an-5.png",
-    "img/bo-0_he-5_ar-0_an-5.png",
-    "img/bo-0_he-1_ar-0_an-6.png",
-    "img/bo-0_he-5_ar-0_an-6.png",
-    "img/bo-0_he-3_ar-0_an-3.png",
-    "img/bo-0_he-6_ar-0_an-3.png",
-    "img/bo-0_he-3_ar-0_an-1.png",
+    "img/bo-0_he-1_ar-0_an-2.png",
+    "img/bo-0_he-2_ar-0_an-1.png",
     "img/bo-0_he-6_ar-0_an-1.png",
+    "img/bo-0_he-2_ar-0_an-5.png",
+    "img/bo-0_he-6_ar-0_an-5.png",
+    "img/bo-0_he-3_ar-0_an-3.png",
+    "img/bo-0_he-5_ar-0_an-3.png",
+    "img/bo-0_he-3_ar-0_an-6.png",
+    "img/bo-0_he-5_ar-0_an-6.png",
     "img/bo-4_he-0_ar-5_an-0.png",
     "img/bo-4_he-0_ar-6_an-0.png",
-    "img/bo-1_he-0_ar-5_an-0.png",
-    "img/bo-1_he-0_ar-6_an-0.png",
-    "img/bo-2_he-0_ar-4_an-0.png",
-    "img/bo-2_he-0_ar-1_an-0.png",
+    "img/bo-2_he-0_ar-5_an-0.png",
+    "img/bo-2_he-0_ar-6_an-0.png",
+    "img/bo-5_he-0_ar-4_an-0.png",
+    "img/bo-5_he-0_ar-1_an-0.png",
     "img/bo-6_he-0_ar-4_an-0.png",
     "img/bo-6_he-0_ar-1_an-0.png",
     "img/bo-3_he-0_ar-2_an-0.png",
     "img/bo-3_he-0_ar-3_an-0.png",
-    "img/bo-5_he-0_ar-2_an-0.png",
-    "img/bo-5_he-0_ar-3_an-0.png",
+    "img/bo-1_he-0_ar-2_an-0.png",
+    "img/bo-1_he-0_ar-3_an-0.png",
     "img/bo-4_he-4_ar-0_an-0.png",
-    "img/bo-4_he-2_ar-0_an-0.png",
-    "img/bo-1_he-4_ar-0_an-0.png",
-    "img/bo-1_he-2_ar-0_an-0.png",
+    "img/bo-4_he-1_ar-0_an-0.png",
+    "img/bo-2_he-4_ar-0_an-0.png",
     "img/bo-2_he-1_ar-0_an-0.png",
-    "img/bo-2_he-5_ar-0_an-0.png",
-    "img/bo-6_he-1_ar-0_an-0.png",
-    "img/bo-6_he-5_ar-0_an-0.png",
-    "img/bo-3_he-3_ar-0_an-0.png",
-    "img/bo-3_he-6_ar-0_an-0.png",
-    "img/bo-5_he-3_ar-0_an-0.png",
+    "img/bo-5_he-2_ar-0_an-0.png",
     "img/bo-5_he-6_ar-0_an-0.png",
+    "img/bo-6_he-2_ar-0_an-0.png",
+    "img/bo-6_he-6_ar-0_an-0.png",
+    "img/bo-3_he-3_ar-0_an-0.png",
+    "img/bo-3_he-5_ar-0_an-0.png",
+    "img/bo-1_he-3_ar-0_an-0.png",
+    "img/bo-1_he-5_ar-0_an-0.png",
     "img/bo-0_he-4_ar-5_an-0.png",
-    "img/bo-0_he-2_ar-5_an-0.png",
+    "img/bo-0_he-1_ar-5_an-0.png",
     "img/bo-0_he-4_ar-6_an-0.png",
-    "img/bo-0_he-2_ar-6_an-0.png",
-    "img/bo-0_he-1_ar-4_an-0.png",
-    "img/bo-0_he-5_ar-4_an-0.png",
-    "img/bo-0_he-1_ar-1_an-0.png",
-    "img/bo-0_he-5_ar-1_an-0.png",
+    "img/bo-0_he-1_ar-6_an-0.png",
+    "img/bo-0_he-2_ar-4_an-0.png",
+    "img/bo-0_he-6_ar-4_an-0.png",
+    "img/bo-0_he-2_ar-1_an-0.png",
+    "img/bo-0_he-6_ar-1_an-0.png",
     "img/bo-0_he-3_ar-2_an-0.png",
-    "img/bo-0_he-6_ar-2_an-0.png",
+    "img/bo-0_he-5_ar-2_an-0.png",
     "img/bo-0_he-3_ar-3_an-0.png",
-    "img/bo-0_he-6_ar-3_an-0.png"
+    "img/bo-0_he-5_ar-3_an-0.png"
   ],
   "feature_fnames": [
     "img/bo-0_he-0_ar-0_an-3.png",
-    "img/bo-0_he-0_ar-0_an-5.png",
+    "img/bo-0_he-0_ar-0_an-1.png",
     "img/bo-0_he-0_ar-0_an-4.png",
     "img/bo-0_he-0_ar-0_an-2.png",
+    "img/bo-0_he-0_ar-0_an-5.png",
     "img/bo-0_he-0_ar-0_an-6.png",
-    "img/bo-0_he-0_ar-0_an-1.png",
     "img/bo-3_he-0_ar-0_an-0.png",
-    "img/bo-2_he-0_ar-0_an-0.png",
-    "img/bo-4_he-0_ar-0_an-0.png",
-    "img/bo-1_he-0_ar-0_an-0.png",
-    "img/bo-6_he-0_ar-0_an-0.png",
     "img/bo-5_he-0_ar-0_an-0.png",
+    "img/bo-4_he-0_ar-0_an-0.png",
+    "img/bo-2_he-0_ar-0_an-0.png",
+    "img/bo-6_he-0_ar-0_an-0.png",
+    "img/bo-1_he-0_ar-0_an-0.png",
     "img/bo-0_he-0_ar-2_an-0.png",
     "img/bo-0_he-0_ar-4_an-0.png",
     "img/bo-0_he-0_ar-5_an-0.png",
@@ -24551,11 +24551,11 @@
     "img/bo-0_he-0_ar-1_an-0.png",
     "img/bo-0_he-0_ar-3_an-0.png",
     "img/bo-0_he-3_ar-0_an-0.png",
-    "img/bo-0_he-1_ar-0_an-0.png",
-    "img/bo-0_he-4_ar-0_an-0.png",
     "img/bo-0_he-2_ar-0_an-0.png",
-    "img/bo-0_he-5_ar-0_an-0.png",
-    "img/bo-0_he-6_ar-0_an-0.png"
+    "img/bo-0_he-4_ar-0_an-0.png",
+    "img/bo-0_he-1_ar-0_an-0.png",
+    "img/bo-0_he-6_ar-0_an-0.png",
+    "img/bo-0_he-5_ar-0_an-0.png"
   ],
   "stim_to_task_feature_map": {
     "bo": 1,
@@ -24564,7 +24564,7 @@
     "an": 0
   },
   "stim_to_task_instance_map": {
-    "0": {
+    "bo": {
       "0": 0,
       "1": 6,
       "2": 4,
@@ -24573,7 +24573,7 @@
       "5": 2,
       "6": 5
     },
-    "1": {
+    "he": {
       "0": 0,
       "1": 4,
       "2": 2,
@@ -24582,7 +24582,7 @@
       "5": 6,
       "6": 5
     },
-    "2": {
+    "ar": {
       "0": 0,
       "1": 5,
       "2": 1,
@@ -24591,7 +24591,7 @@
       "5": 3,
       "6": 4
     },
-    "3": {
+    "an": {
       "0": 0,
       "1": 2,
       "2": 4,
@@ -24608,7 +24608,7 @@
     "3": "he"
   },
   "task_to_stim_instance_map": {
-    "0": {
+    "bo": {
       "0": 0,
       "1": 3,
       "2": 5,
@@ -24617,7 +24617,7 @@
       "5": 6,
       "6": 1
     },
-    "1": {
+    "he": {
       "0": 0,
       "1": 3,
       "2": 2,
@@ -24626,7 +24626,7 @@
       "5": 6,
       "6": 5
     },
-    "2": {
+    "ar": {
       "0": 0,
       "1": 2,
       "2": 4,
@@ -24635,7 +24635,7 @@
       "5": 1,
       "6": 3
     },
-    "3": {
+    "an": {
       "0": 0,
       "1": 3,
       "2": 1,

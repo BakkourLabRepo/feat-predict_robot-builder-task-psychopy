@@ -1,13 +1,7 @@
 import numpy as np
 
-# In or our of scanner
-IN_SCANNER = False
-
 # Run in debug mode (fast ITIs and random responses)
 DEBUG = False
-
-# What type of covert task? ('oddball' or 'oneback')
-COVER_TASK = 'oddball'
 
 # Path to save data to
 DATA_PATH = '/Users/euanprentis/Documents/feat-predict-mri/exp-1/beh'
@@ -19,13 +13,8 @@ IMG_PATH = 'img/png'
 TR_KEY = 't'
 
 # Possible key presses during choice phase
-if IN_SCANNER:
-    
-    KEYS = ['b', 'y', 'g', 'r']
-    TEST_KEYS = ['1', '2', '9', '0']
-else:
-    KEYS = ['1', '2', '9', '0']
-    TEST_KEYS = ['1', '2', '9', '0']
+KEYS = ['1', '2', '9', '0']
+TEST_KEYS = ['1', '2', '9', '0']
 
 # Instructions keys
 INSTRUCTIONS_KEYS = {
@@ -53,31 +42,6 @@ TIMES = {
     'reward': 1.5
 }
 
-# Run cover task with jittered ITIs or not?
-JITTERED_COVERTASK_ITIS = False
-
-if JITTERED_COVERTASK_ITIS:
-
-    # Duration of each trial phase during cover task (jittered ITI)
-    COVERTASK_TIMES = {
-        '+': [.5, 2., 3.5],
-        'display': 2.5
-    }
-
-    # Cover task pre-run delay 
-    PRE_RUN_DELAY = .5
-
-else:
-
-    # Duration of each trial phase during cover task (non-jittered ITI)
-    COVERTASK_TIMES = {
-        '+': [.25],
-        'display': 2.75
-    }
-
-    # Cover task pre-run delay 
-    PRE_RUN_DELAY = .25
-
 # Encoding times
 ENCODING_TIMES = {
     'category': 1.5,
@@ -91,20 +55,11 @@ CATEGORY_REPEATS = 2
 # Fast times if debugging
 if DEBUG:
     TIMES = {key: .1 for key in TIMES.keys()}
-    for key in COVERTASK_TIMES.keys():
-        if key == '+':
-            COVERTASK_TIMES[key] = [.05]
-        else:
-            COVERTASK_TIMES[key] = .05
     PRE_RUN_DELAY = .05
     POST_RUN_DELAY = .05
 
 # Stimulus sizes. Will be re-scaled based on window height.
-if IN_SCANNER:
-    SIZE_SCALE = 2
-    #SIZE_SCALE = 1
-else:
-    SIZE_SCALE = 1
+SIZE_SCALE = 1
 SIZE_SCALE_COMPREHENSION = 1
 SIZE_SCALE_ENCODING = 1
 SIZES = {

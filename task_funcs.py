@@ -300,75 +300,6 @@ def preload_stimuli(win, fnames_to_load, sizes, positions):
 
     return screen_objects
 
-def preload_covertask_stimuli(win, fnames_to_load, sizes, positions):
-    """
-    Preload cover task (oneback or oddball) stimuli 
-
-    Arguments
-    ---------
-    win : psychopy.visual.Window
-        Window object to draw stimuli on
-    fnames_to_load : list   
-        List of file names to load
-    sizes : dict
-        Dictionary containing sizes for each stimulus type
-    positions : dict
-        Dictionary containing positions for each stimulus type
-    
-    Returns
-    -------
-    screen_objects : dict
-        Dictionary containing all screen objects
-    """
-
-    # Dictionary to store screen objects
-    screen_objects = {}
-
-    # For each stimulus type load images
-    for fname in fnames_to_load:
-        if not '.png' in fname:
-            continue
-
-        # Size differs for robots parts versus robots
-        if 'robot_parts' in fname:
-            height = sizes['robot_parts'][0]*2
-        elif 'instructions' in fname:
-            height = sizes['instructions'][0]
-        else:
-            height = sizes['robots'][0]
-
-        # Get key for stimulus
-        key = fname.split('/')[-1]
-        if 'instructions' in fname:
-            key = key.replace('.png', '')
-            key = int(key.split('_')[1])
-        else: 
-            key = 'img/' + key
-
-        # Load image
-        screen_objects[key] = visual.ImageStim(
-            win,
-            image = fname
-        )
-        aspect_ratio = screen_objects[key].size[0]/screen_objects[key].size[1]  
-        width = height*aspect_ratio
-        screen_objects[key].size = [width, height]
-
-    # Fixation cross
-    screen_objects['+'] = visual.TextStim(
-        win,
-        text = '+',
-        height = sizes['text']
-    )
-
-    # Category label cross
-    screen_objects['category'] = visual.TextStim(
-        win,
-        text = '',
-        height = sizes['text']
-    )
-
-    return screen_objects
     
 
 def preload_comprehension_instructions(win, fnames_to_load, sizes):
@@ -450,7 +381,7 @@ def conj_to_img(
         stim_feat = task_to_stim_feature_map[str(feat)]
         stim_inst = task_to_stim_instance_map[stim_feat][str(inst)]
         stim_feats[stim_feat] = stim_inst
-
+    print(conj, stim_feats) # DEBUGGING
     stim_conj = []
     for stim_feat in ['bo', 'he', 'ar', 'an']:
         stim_conj.append(f'{stim_feat}-{stim_feats[stim_feat]}')
@@ -1133,6 +1064,7 @@ def run_trial(
 
                 # Draw successor 
                 if len(selected) > 1:
+                    print(composition, successor, composition_fname, successor_fname)
                     screen_objects[successor_fname].pos = positions['robots']
                     screen_objects[successor_fname].size = sizes['robots']
                     screen_objects[successor_fname].draw()    

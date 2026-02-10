@@ -287,7 +287,7 @@ function convertIndexToConjunction(index, n_feats, n_insts) {
 // Get file names for an array of conjunctions
 function getTrialFileNames(
     conjs,
-    stim_to_task_feature_map,
+    task_to_stim_feature_map,
     task_to_stim_instance_map,
     random_flip = true,
     all_flip = false
@@ -313,7 +313,7 @@ function getTrialFileNames(
             // Convert conjunction to stimulus file name
             const conj_fname = conjToImage(
                 conj,
-                stim_to_task_feature_map,
+                task_to_stim_feature_map,
                 task_to_stim_instance_map,
                 flipped = flip
             );
@@ -322,8 +322,6 @@ function getTrialFileNames(
             if (!conj_fnames.includes(conj_fname)) {
                 conj_fnames = conj_fnames.concat([conj_fname]);
             };
-
-            console.log(conj, conj_fname)
         
         };
         
@@ -360,15 +358,15 @@ function getOptionsFileNames(
 // Convert conjunction to stimulus image file name
 function conjToImage(
     conj,
-    stim_to_task_feature_map,
+    task_to_stim_feature_map,
     task_to_stim_instance_map,
     flipped = false
 ) {
     let stim_conj = [];
     for (const feat of STIM_FEATS) {
-        const task_feat = stim_to_task_feature_map[feat];
+        const task_feat = task_to_stim_feature_map[feat];
         const task_inst = conj[task_feat];
-        const stim_inst = task_to_stim_instance_map[task_feat][task_inst];
+        const stim_inst = task_to_stim_instance_map[feat][task_inst];
         stim_conj = stim_conj.concat([feat + '-' + stim_inst]);
     }
     if (flipped) {
