@@ -56,7 +56,7 @@
                 // instances
                 let stim_to_task_instance_map = {};
                 let task_to_stim_instance_map = {};
-                for (let i = 0; i < N_FEATS; i++) {
+                for (const feat of STIM_FEATS) {
                     const inst_map = jsPsych.randomization.sampleWithoutReplacement(
                         STIM_INSTS,
                         N_INSTS
@@ -65,16 +65,16 @@
                         createIntArray(N_INSTS),
                         1
                     )
-                    stim_to_task_instance_map[i] = zipArrays(
+                    stim_to_task_instance_map[feat] = zipArrays(
                         inst_map,
                         task_insts
                     );
-                    stim_to_task_instance_map[i][0] = 0
-                    task_to_stim_instance_map[i] = zipArrays(
+                    stim_to_task_instance_map[feat][0] = 0
+                    task_to_stim_instance_map[feat] = zipArrays(
                         task_insts,
                         inst_map
                     );
-                    task_to_stim_instance_map[i][0] = 0
+                    task_to_stim_instance_map[feat][0] = 0
                 };
 
 

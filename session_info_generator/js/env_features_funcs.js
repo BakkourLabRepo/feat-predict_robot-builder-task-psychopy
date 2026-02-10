@@ -293,24 +293,41 @@ function getTrialFileNames(
     all_flip = false
 ) {
     let conj_fnames = [];
-    for (const conj of conjs) {
-
-        // randomly flip position of features
-        let flip = false;
-        if (random_flip) {
-            flip = randomBool();
-        } else if (all_flip) {
-            flip = true;
+    for (let conj_step of conjs) {
+        
+        // "nest" targets
+        if (!Array.isArray(conj_step[0])) {
+            conj_step = [conj_step];
         }
 
-        // Convert conjunction to stimulus file name
-        const conj_fname = conjToImage(
-            conj,
-            stim_to_task_feature_map,
-            task_to_stim_instance_map,
-            flipped = flip
-        );
-        conj_fnames = conj_fnames.concat([conj_fname]);
+        for (const conj of conj_step) {
+
+            // randomly flip position of features
+            let flip = false;
+            if (random_flip) {
+                flip = randomBool();
+            } else if (all_flip) {
+                flip = true;
+            }
+
+            // Convert conjunction to stimulus file name
+            const conj_fname = conjToImage(
+                conj,
+                stim_to_task_feature_map,
+                task_to_stim_instance_map,
+                flipped = flip
+            );
+
+            // Add to list of file names if not already added
+            if (!conj_fnames.includes(conj_fname)) {
+                conj_fnames = conj_fnames.concat([conj_fname]);
+            };
+
+            console.log(conj, conj_fname)
+        
+        };
+        
+
     };
     return conj_fnames;
 };

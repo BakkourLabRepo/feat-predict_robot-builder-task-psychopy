@@ -1,0 +1,249 @@
+import json
+import pickle
+from os import listdir, makedirs
+import numpy as np
+import pandas as pd
+from psychopy import visual, core, event
+from task_funcs import (
+    get_fnames_to_load,
+    adjust_sizes,
+    adjust_positions,
+    text_display,
+    preload_stimuli,
+    load_itis,
+    instructions,
+    update_onset_times,
+    run_trial
+)
+from config import (
+    DEBUG,
+    DATA_PATH,
+    IMG_PATH,
+    TIMES,
+    POST_RUN_DELAY,
+    SIZES,
+    SIZE_SCALE,
+    POSITIONS,
+    KEYS,
+    TEST_KEYS,
+    TR_KEY,
+    INSTANCE_TMAT,
+    FEATURE_TMAT,
+    INSTRUCTIONS_KEYS
+)
+
+
+# Input session parameters
+SUBJ = input('Enter subject ID: ')
+CONDITION = int(input('Enter condition: '))
+SEED = int(input('Enter seed: '))
+PHASE = input('Enter phase "training" or "test": ')
+RUN = int(input('Enter run number: '))
+while True:
+    if PHASE in ['training', 'test']:
+        break
+    PHASE = input('Invalid phase. Enter phase "training" or "test": ')
+if RUN == 1:
+    SHOW_INSTRUCTIONS = input('Show instructions? (y/n): ')
+    while True:
+        if SHOW_INSTRUCTIONS in ['y', 'n']:
+            SHOW_INSTRUCTIONS = SHOW_INSTRUCTIONS == 'y'
+            break
+        SHOW_INSTRUCTIONS = input('Enter "y" or "n". Show instructions? (y/n): ')
+else:
+    SHOW_INSTRUCTIONS = False
+
+if PHASE == 'test':
+    SIZE_SCALE = SIZE_SCALE/2
+    KEYS = TEST_KEYS
+
+# Create data directory
+DATA_PATH = f'{DATA_PATH}/feat-predict-mri_{SUBJ}'
+makedirs(DATA_PATH, exist_ok=True)
+    
+np.random.seed(SEED)
+run_info = {
+    'id': SUBJ,
+    'seed': SEED,
+    'condition': CONDITION,
+    'between_cond': int(CONDITION in [1, 2, 5]),
+    'phase': PHASE,
+    'run': RUN
+}
+
+# Select feature transition matrix based on condition
+feature_tmat = FEATURE_TMAT[CONDITION]
+
+# Load session information
+f = open(f'session_info/session-info_{SEED}-{CONDITION}.json')
+session_info = json.load(f)
+train_trial_info = session_info['train_trial_info']
+test_trial_info = session_info['test_trial_info']
+train_fnames = session_info['train_fnames']
+test_fnames = session_info['test_fnames']
+feature_fnames = session_info['feature_fnames']
+task_to_stim_feature_map = session_info['task_to_stim_feature_map']
+task_to_stim_instance_map = session_info['task_to_stim_instance_map']
+
+# Get stimuli to load based on phase
+if PHASE == 'training':
+    fnames_to_load = get_fnames_to_load(train_fnames, feature_fnames, IMG_PATH)
+    phase_trial_info = train_trial_info
+elif PHASE == 'test':
+    fnames_to_load = get_fnames_to_load(test_fnames, feature_fnames, IMG_PATH)
+    phase_trial_info = test_trial_info
+
+# Load instructions images
+if SHOW_INSTRUCTIONS:
+    for fname in listdir(f'{IMG_PATH}/instructions'):
+        if (PHASE in fname) and ('comprehension' not in fname):
+            fpath = f'{IMG_PATH}/instructions/{fname}'
+            fnames_to_load.append(fpath)
+
+# Create window in fullscreen with cursor off
+win = visual.Window(fullscr=True, color='black', units='pix')
+win.mouseVisible = False
+
+# Set sizes relative to window height
+win_h = win.size[1]*SIZE_SCALE
+adjust_sizes(SIZES, win_h)
+adjust_positions(POSITIONS, win_h)
+
+# Preload stimuli
+text_display(win, 'Loading stimuli...')
+screen_objects = preload_stimuli(win, fnames_to_load, SIZES, POSITIONS)
+
+# If training, load jittered ITIs
+if PHASE == 'training':
+    itis = load_itis(RUN)
+
+# Load total points accrued so far
+if PHASE == 'training':
+    if RUN > 1:
+        with open(
+            f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
+            'rb'
+        ) as f:
+            total_points = pickle.load(f)
+    else:
+        total_points = 0
+elif PHASE == 'test':
+    total_points = '???'
+
+# Instructions
+if SHOW_INSTRUCTIONS:
+    instructions(win, screen_objects, INSTRUCTIONS_KEYS)
+
+# Wait for scanner to stabilize
+text_display(win, 'Scanner starting up...')
+if not DEBUG and (PHASE == 'training'):
+    event.waitKeys(keyList=[TR_KEY])
+
+# Initialize data frame
+data = pd.DataFrame(columns=[
+    'id',
+    'seed',
+    'condition',
+    'between_cond',
+    'phase',
+    'run',
+    't',
+    'target_comb',
+    'options_comb',
+    'options_fnames',
+    'options',
+    'correct_composition',
+    'composition_fname',
+    'composition',
+    'successor_fname',
+    'successor',
+    'target_fname',
+    'target',
+    'reward',
+    'correct',
+    'valid_response',
+    'rt',
+    'selections'
+])
+onset_times = pd.DataFrame(columns=[
+    'onset',
+    'duration',
+    'trial_type'
+])
+
+# Global task clock
+last_onset = [None, 0]
+running_time = 0
+clock = core.Clock()
+
+# Run phase
+for t, trial_info in enumerate(phase_trial_info[RUN - 1]):
+
+    # Assign ITIs
+    if not DEBUG and (PHASE == 'training'):
+        times = TIMES.copy()
+        times['iti'] = itis[t]
+    else:
+        times = TIMES
+
+    # Run trial
+    trial_info = {
+        'clock': clock,
+        'running_time': running_time,
+        'onset_times': onset_times,
+        'last_onset': last_onset,
+        'win': win,
+        'times': times,
+        'screen_objects': screen_objects,
+        'positions': POSITIONS,
+        'sizes': SIZES,
+        'task_to_stim_feature_map': task_to_stim_feature_map,
+        'task_to_stim_instance_map': task_to_stim_instance_map,
+        'feature_tmat': feature_tmat,
+        'instance_tmat': INSTANCE_TMAT,
+        'total_points': total_points,
+        'keys': KEYS,
+        'data': data,
+        'run_info': run_info,
+        't': t,
+        'data_path': DATA_PATH,
+        'debug': DEBUG,
+        **trial_info
+    }
+    data, total_points, running_time, onset_times, last_onset = run_trial(
+        **trial_info
+    )
+
+# Post run delay
+screen_objects['+'].draw()
+win.flip()
+onset = clock.getTime()
+save_points = PHASE == 'training'
+running_time += POST_RUN_DELAY
+while clock.getTime() < running_time:
+    if save_points:
+
+        # Save points accumulated
+        save_points = False
+        with open(
+            f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
+            'wb'
+        ) as f:
+            pickle.dump(total_points, f)
+
+        # Update onset times
+        onset_times = update_onset_times(onset_times, last_onset, onset)
+        last_onset = ['iti', onset]
+
+# Save onsets
+onset = clock.getTime()
+onset_times = update_onset_times(onset_times, last_onset, onset)
+onset_times.to_csv(
+    f'{DATA_PATH}/sub-{SUBJ}_task-{PHASE}_run-{RUN:02}_events.tsv',
+    sep = '\t',
+    index = False
+)
+
+# Close the window
+win.close()
+core.quit()
