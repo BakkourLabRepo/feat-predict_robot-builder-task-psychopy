@@ -4,7 +4,7 @@ import numpy as np
 DEBUG = False
 
 # Path to save data to
-DATA_PATH = '/Users/euanprentis/Documents/feat-predict-mri/exp-1/beh'
+DATA_PATH = ''
 
 # Path to image files
 IMG_PATH = 'img/png'
@@ -94,9 +94,9 @@ INSTANCE_TMAT = np.array([
     [1,0,0,0,0,0],
     [1,0,0,0,0,0],
     [0,1,0,0,0,0],
-    [0,1,0,0,0,0],
-    [0,0,0,1,0,0],
-    [0,0,0,1,0,0]
+    [0,0,0,0,1,0],
+    [0,0,0,0,0,1],
+    [0,0,0,0,0,1]
 ])
 
 # Transition matrix for feature values

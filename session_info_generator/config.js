@@ -69,6 +69,8 @@ const START_INSTS = [
 const TERMINAL_INSTS = [1,6];
 const N_FRACTALS = N_FEATS*N_INSTS;
 const NO_RESPONSE_REWARD = -5;
+const N_STEPS_LEVELS_TRAINING = [1];
+const N_STEPS_LEVELS_TEST = [1, 2];
 
 // Transition matrix between instance levels
 const INSTANCE_TMAT = [[1,0,0,0,0,0],

@@ -134,7 +134,7 @@
                 };
                 const feature_fnames = getTrialFileNames(
                     all_features,
-                    stim_to_task_feature_map,
+                    task_to_stim_feature_map,
                     task_to_stim_instance_map,
                     random_flip = false
                 );
@@ -199,21 +199,24 @@
                     inst_tmat_likely,
                     n_repeats = N_TRAIN_CONJ_REPEATS,
                     match_comb_to_target = true,
-                    non_match_level_freq = TRAIN_NON_MATCH_LEVEL_FREQ
+                    non_match_level_freq = TRAIN_NON_MATCH_LEVEL_FREQ,
+                    shuffle_all = false,
+                    n_steps_levels = N_STEPS_LEVELS_TRAINING,
                 )
                 let train_correct_compositions = train_samples['correct_compositions'];
                 let train_targets = train_samples['targets'];
                 let train_options = train_samples['options'];
+                let train_n_inference_steps = train_samples['n_inference_steps'];
                 
                 // Get stimulus file names
                 let train_targets_fnames = getTrialFileNames(
                     train_targets,
-                    stim_to_task_feature_map,
+                    task_to_stim_feature_map,
                     task_to_stim_instance_map
                 );
                 let train_options_fnames = getOptionsFileNames(
                     train_options,
-                    stim_to_task_feature_map,
+                    task_to_stim_feature_map,
                     task_to_stim_instance_map
                 );
 
@@ -228,24 +231,25 @@
                     n_repeats = N_TEST_CONJ_REPEATS,
                     match_comb_to_target = false,
                     non_match_level_freq = 1,
-                    shuffle_all = true
+                    shuffle_all = true,
+                    n_steps_levels = N_STEPS_LEVELS_TEST
                 )
                 let test_correct_compositions = test_samples['correct_compositions'];
                 let test_targets = test_samples['targets'];
                 let test_options = test_samples['options'];
+                let test_n_inference_steps = test_samples['n_inference_steps'];
 
                 // Get stimulus file names
                 let test_targets_fnames = getTrialFileNames(
                     test_targets,
-                    stim_to_task_feature_map,
+                    task_to_stim_feature_map,
                     task_to_stim_instance_map
                 );
                 let test_options_fnames = getOptionsFileNames(
                     test_options,
-                    stim_to_task_feature_map,
+                    task_to_stim_feature_map,
                     task_to_stim_instance_map
                 );
-
 
                 ////////////////////////////////////////////////////////
                 // Generate choice phase timeline variables //
@@ -281,6 +285,7 @@
                         'target': train_targets[i],
                         'target_fname': train_targets_fnames[i],
                         'correct_composition': train_correct_compositions[i],
+                        'n_steps': train_n_inference_steps[i],
                         'practice': 0
                     });
                 }
@@ -298,6 +303,7 @@
                         'target': test_targets[i],
                         'target_fname': test_targets_fnames[i],
                         'correct_composition': test_correct_compositions[i],
+                        'n_steps': test_n_inference_steps[i],
                         'practice': 0
                     });
                 }
@@ -327,7 +333,7 @@
                 train_fnames = train_fnames.concat(
                     getTrialFileNames(
                         all_train_conjs,
-                        stim_to_task_feature_map,
+                        task_to_stim_feature_map,
                         task_to_stim_instance_map,
                         random_flip = false,
                         all_flip = true
@@ -336,7 +342,7 @@
                 train_fnames = train_fnames.concat(
                     getTrialFileNames(
                         all_train_conjs,
-                        stim_to_task_feature_map,
+                        task_to_stim_feature_map,
                         task_to_stim_instance_map,
                         random_flip = false,
                         all_flip = false
@@ -355,7 +361,7 @@
                 test_fnames = test_fnames.concat(
                     getTrialFileNames(
                         all_test_conjs,
-                        stim_to_task_feature_map,
+                        task_to_stim_feature_map,
                         task_to_stim_instance_map,
                         random_flip = false,
                         all_flip = true
@@ -364,7 +370,7 @@
                 test_fnames = test_fnames.concat(
                     getTrialFileNames(
                         all_test_conjs,
-                        stim_to_task_feature_map,
+                        task_to_stim_feature_map,
                         task_to_stim_instance_map,
                         random_flip = false,
                         all_flip = false

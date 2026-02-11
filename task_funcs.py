@@ -381,7 +381,7 @@ def conj_to_img(
         stim_feat = task_to_stim_feature_map[str(feat)]
         stim_inst = task_to_stim_instance_map[stim_feat][str(inst)]
         stim_feats[stim_feat] = stim_inst
-    print(conj, stim_feats) # DEBUGGING
+
     stim_conj = []
     for stim_feat in ['bo', 'he', 'ar', 'an']:
         stim_conj.append(f'{stim_feat}-{stim_feats[stim_feat]}')
@@ -394,45 +394,6 @@ def conj_to_img(
     fname = 'img/' + '_'.join(stim_conj) + '.png'
 
     return fname
-
-def img_to_conj(
-    fname,
-    stim_to_task_feature_map,
-    stim_to_task_instance_map
-):
-    """
-    Convert stimulus file name to task conjunction
-
-    Arguments
-    ---------
-    fname : str
-        File name of stimulus
-    stim_to_task_feature_map : dict
-        Mapping of stimulus features to task features
-    stim_to_task_instance_map : dict
-        Mapping of stimulus instances to task instances
-    
-    Returns
-    -------
-    conj : np.ndarray
-        Task conjunction
-    """
-    
-    # Split fname into features
-    fname = fname.replace('_flipped', '')
-    fname = fname.replace('img/', '')
-    fname = fname.replace('.png', '')
-    features = fname.split('_')
-
-    # Convert stim features to task features
-    conj = np.zeros(len(features), dtype=int)
-    for feature in features:
-        stim_f, stim_i = feature.split('-')
-        task_f = stim_to_task_feature_map[stim_f]
-        task_i = stim_to_task_instance_map[stim_f][str(stim_i)]
-        conj[task_f] = task_i
-    
-    return conj
 
 def get_feature_label_from_fname(fname):
     """
@@ -749,6 +710,7 @@ def run_trial(
     target = None,
     target_fname = None,
     correct_composition = None,
+    n_steps = 1,
     practice = False,
     debug = False
 ):
@@ -808,6 +770,8 @@ def run_trial(
         File name for target item
     correct_composition : list
         Composition that will produce the target
+    n_steps : int
+        Number of steps to show in the successor chain
     practice : bool
         Whether the trial is a practice trial or not
     debug : bool
@@ -993,11 +957,13 @@ def run_trial(
                     valid_response = 1
 
                     # Successor
-                    successor = get_successor(
-                        composition,
-                        instance_tmat,
-                        feature_tmat
-                    )
+                    successor = composition.copy()
+                    for _ in range(n_steps):
+                        successor = get_successor(
+                            successor,
+                            instance_tmat,
+                            feature_tmat
+                        )
                     successor_fname = conj_to_img(
                         successor,
                         task_to_stim_feature_map,
@@ -1064,7 +1030,6 @@ def run_trial(
 
                 # Draw successor 
                 if len(selected) > 1:
-                    print(composition, successor, composition_fname, successor_fname)
                     screen_objects[successor_fname].pos = positions['robots']
                     screen_objects[successor_fname].size = sizes['robots']
                     screen_objects[successor_fname].draw()    
@@ -1186,163 +1151,6 @@ def run_trial(
         onset_times.to_csv(f'{data_path}/{fname}', sep='\t', index=False)
 
     return data, total_points, running_time, onset_times, last_onset
-
-def run_covertask_trial(
-    clock = None,
-    running_time = None,
-    onset_times = None,
-    last_onset = [None, 0],
-    win = None,
-    times = None,
-    screen_objects = None,
-    stim_to_task_feature_map = None,
-    stim_to_task_instance_map = None,
-    response_keys = None,
-    data = None,
-    run_info = None,
-    t = None,
-    data_path = None,
-    item_fname = None,
-    correct_response = None,
-    debug = False
-):
-    """
-    Run cover-task trial
-
-    Arguments
-    ---------
-    clock : psychopy.core.Clock
-        Clock object to track time
-    running_time : float
-        Running upper time limit for the run
-    onset_times : pandas.DataFrame
-        Data frame to store onset times for each trial phase
-    last_onset : list
-        Length = 2 list where the first position is the last trial
-        phase name and the second position is the onset time
-    win : psychopy.visual.Window
-        Window object to draw stimuli on
-    times : dict
-        Dictionary containing times for each trial phase
-    screen_objects : dict
-        Dictionary containing all screen objects
-    stim_to_task_feature_map : dict
-        Mapping of stimulus features to task features
-    stim_to_task_instance_map : dict
-        Mapping of stimulus instances to task instances
-    response_keys : list
-        List of keys that can be pressed for one-back/oddball response
-    data : pd.DataFrame
-        Data frame to store trial data
-    run_info : dict
-        Dictionary containing run information
-    t : int
-        Trial number
-    data_path : str
-        Path to save data
-    item_fname : str
-        File name of stimulus
-    correct_response : int
-        Should a response be made on this trial (1) or not (0)?
-    debug : bool
-        Run task in debugging mode
-    
-    Returns
-    -------
-    data : pd.DataFrame
-        Updated data frame
-    running_time : float
-        Updated upper time limit for the run
-    """
-
-    # Fixation
-    screen_objects['+'].draw()
-    win.flip()
-    onset = clock.getTime()
-    setup_next = True
-    running_time += times['+']
-    while clock.getTime() < running_time:
-        if setup_next:
-            setup_next = False
-            event.clearEvents() # clear events - they clog the buffer
-            screen_objects[item_fname].draw()
-
-            # Save current run data
-            phase = run_info['phase']
-            subj = run_info['id']
-            run = run_info['run']
-            fname = f'sub-{subj}_task-{phase}_run-{run:02}.csv'
-            data.to_csv(f'{data_path}/{fname}', index=False)
-            fname = f'sub-{subj}_task-{phase}_run-{run:02}_events.tsv'
-            onset_times.to_csv(f'{data_path}/{fname}', sep='\t', index=False)
-
-            # Get task representation of item if not response trial
-            if correct_response:
-                item = []
-            else:
-                item = img_to_conj(
-                    item_fname,
-                    stim_to_task_feature_map,
-                    stim_to_task_instance_map
-                )
-            
-            # Init trial data
-            trial_data = {
-                **run_info,
-                't': t,
-                'item_fname': item_fname,
-                'item': item,
-                'response': 0,
-                'correct_response': correct_response,
-                'rt': -1
-            }
-            data = data.append(trial_data, ignore_index=True)
-
-            # Update onset times
-            onset_times = update_onset_times(onset_times, last_onset, onset)
-            last_onset = ['iti', onset]
-
-            # If debugging, sample response now
-            if debug:
-                keypresses = [np.random.choice([
-                    *response_keys,
-                    *[-1]*len(response_keys)
-                ])]
-
-
-    # Target phase
-    win.flip()
-    onset = clock.getTime()
-    response = 0
-    setup_next = True
-    running_time += times['display']
-    while clock.getTime() < running_time:
-
-        if setup_next:
-            setup_next = False
-            onset_times = update_onset_times(onset_times, last_onset, onset)
-            last_onset = ['display', onset]
-
-        # Get keypresses
-        if not debug:
-            keypresses = event.getKeys()
-
-        # Check for keypresses
-        for key in keypresses:
-
-            # Quit
-            if key == 'escape':
-                win.close()
-                core.quit()
-
-            # Record first one-back response
-            if (key in response_keys) and not response:
-                rt = clock.getTime() - running_time + times['display']
-                response = 1
-                data.iloc[-1, data.columns.get_loc('rt')] = rt
-                data.iloc[-1, data.columns.get_loc('response')] = response
-    
-    return data, running_time, onset_times, last_onset
 
 
 def run_encoding_trial(

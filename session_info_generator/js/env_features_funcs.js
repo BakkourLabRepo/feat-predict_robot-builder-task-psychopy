@@ -130,20 +130,22 @@ function generateTrials(
     n_repeats = 1,
     match_comb_to_target = false,
     non_match_level_freq = 1,
-    shuffle_all = false
+    shuffle_all = false,
+    n_steps_levels = [1]
 ) {
     
     // For each feature combination create option sets
     let correct_compositions = [];
     let targets = [];
     let options = [];
+    let n_inference_steps = [];
     for (const comb of combs) {
 
         // For each option set create targets
         let comb_correct_compositions = [];
         let comb_targets = [];
         let comb_options = [];
-        let comb_steps = [];
+        let comb_n_inference_steps = [];
         for (const target_comb of combs) {
             
             // If matching composition and target features
@@ -156,54 +158,74 @@ function generateTrials(
             }
             
             for (let step = 0; step < conjunctions[target_comb]['start'].length; step++) {
-                for (const start of conjunctions[target_comb]['start'][step]) {
 
-                    // Get target
-                    const target = getSuccessor(start, instance_tmat, feature_tmat)
+                for (const n_steps of n_steps_levels) {
 
-                    // Does the conjunction's features have different
-                    // instance levels? (e.g. [3, 2, 0, 0] not [3, 3, 0, 0])
-                    const inst_levels = getUniqueNonZeroValues(target);
-                    const non_matched_levels = inst_levels.length > 1;
-                    const added_rate = non_matched_levels*(non_match_level_freq - 1);
-                    const conj_rate = n_repeats + n_repeats*added_rate;
+                    // Skip if number of inference steps exceeds the
+                    // maximum number of steps possible
+                    if (step + n_steps > conjunctions[target_comb]['start'].length) {
+                        continue
+                    }
 
-                    // Add correct composition for this combination
-                    comb_correct_compositions = comb_correct_compositions.concat(
-                        createRepeatingArray(
-                            start,
-                            conj_rate
-                        )
-                    );
-                    
-                    // Add to target set for this combination
-                    comb_targets = comb_targets.concat(
-                        createRepeatingArray(
-                            target,
-                            conj_rate
-                        )
-                    );
+                    for (const start of conjunctions[target_comb]['start'][step]) {
 
+                        // Get target
+                        let target = Array.from(start);
+                        for (let i = 0; i < n_steps; i++) {
+                            target = getSuccessor(
+                                target,
+                                instance_tmat,
+                                feature_tmat
+                            );
+                        };
+                        
+                        // Get target
+                        // const target = getSuccessor(start, instance_tmat, feature_tmat)
 
-                    // Add to options set for this combination
-                    for (let i = 0; i < conj_rate; i++) {
-                        comb_options = comb_options.concat([
-                            createOptionsSet(
-                                comb,
-                                start_features[step],
-                                randomize_order = true
+                        // Does the conjunction's features have different
+                        // instance levels? (e.g. [3, 2, 0, 0] not [3, 3, 0, 0])
+                        const inst_levels = getUniqueNonZeroValues(target);
+                        const non_matched_levels = inst_levels.length > 1;
+                        const added_rate = non_matched_levels*(non_match_level_freq - 1);
+                        const conj_rate = n_repeats + n_repeats*added_rate;
+
+                        // Add correct composition for this combination
+                        comb_correct_compositions = comb_correct_compositions.concat(
+                            createRepeatingArray(
+                                start,
+                                conj_rate
                             )
-                        ])
-                    };
+                        );
+                        
+                        // Add to target set for this combination
+                        comb_targets = comb_targets.concat(
+                            createRepeatingArray(
+                                target,
+                                conj_rate
+                            )
+                        );
 
-                    // Track which step this trial is
-                    comb_steps = comb_steps.concat(
-                        createRepeatingArray(
-                            step,
-                            conj_rate
+
+                        // Add to options set for this combination
+                        for (let i = 0; i < conj_rate; i++) {
+                            comb_options = comb_options.concat([
+                                createOptionsSet(
+                                    comb,
+                                    start_features[step],
+                                    randomize_order = true
+                                )
+                            ])
+                        };
+
+                        // Track which step this trial is
+                        comb_n_inference_steps = comb_n_inference_steps.concat(
+                            createRepeatingArray(
+                                n_steps,
+                                conj_rate
+                            )
                         )
-                    )
     
+                    };
                 };
             };
         };
@@ -215,11 +237,13 @@ function generateTrials(
         comb_correct_compositions = sortByIndex(comb_correct_compositions, idx);
         comb_targets = sortByIndex(comb_targets, idx);
         comb_options = sortByIndex(comb_options, idx);
+        comb_n_inference_steps = sortByIndex(comb_n_inference_steps, idx);
         
         // Add to full set
         correct_compositions = correct_compositions.concat(comb_correct_compositions);
         targets = targets.concat(comb_targets);
         options = options.concat(comb_options);
+        n_inference_steps = n_inference_steps.concat(comb_n_inference_steps);
     };
 
     // Permute trial order
@@ -230,13 +254,14 @@ function generateTrials(
         correct_compositions = sortByIndex(correct_compositions, idx);
         targets = sortByIndex(targets, idx);
         options = sortByIndex(options, idx);
-
+        n_inference_steps = sortByIndex(n_inference_steps, idx);
     }
 
     return {
         'correct_compositions': correct_compositions,
         'targets': targets,
-        'options': options
+        'options': options,
+        'n_inference_steps': n_inference_steps
     };
 };
 
@@ -318,10 +343,8 @@ function getTrialFileNames(
                 flipped = flip
             );
 
-            // Add to list of file names if not already added
-            if (!conj_fnames.includes(conj_fname)) {
-                conj_fnames = conj_fnames.concat([conj_fname]);
-            };
+            // Add to list of file names 
+            conj_fnames = conj_fnames.concat([conj_fname]);
         
         };
         
@@ -333,7 +356,7 @@ function getTrialFileNames(
 // Get options file names
 function getOptionsFileNames(
     options,
-    stim_to_task_feature_map,
+    task_to_stim_feature_map,
     task_to_stim_instance_map
 ) {
     let options_fnames = []
@@ -344,7 +367,7 @@ function getOptionsFileNames(
             options_fnames[i] = options_fnames[i].concat([
                 getTrialFileNames(
                     option,
-                    stim_to_task_feature_map,
+                    task_to_stim_feature_map,
                     task_to_stim_instance_map,
                     random_flip = false
                 )
@@ -362,17 +385,25 @@ function conjToImage(
     task_to_stim_instance_map,
     flipped = false
 ) {
+
+    let stim_feats = {};
+    for (const [feat, inst] of conj.entries()) {
+        const stim_feat = task_to_stim_feature_map[feat.toString()];
+        const stim_inst = task_to_stim_instance_map[stim_feat][inst];
+        stim_feats[stim_feat] = stim_inst;
+    } ;
+
     let stim_conj = [];
-    for (const feat of STIM_FEATS) {
-        const task_feat = task_to_stim_feature_map[feat];
-        const task_inst = conj[task_feat];
-        const stim_inst = task_to_stim_instance_map[feat][task_inst];
-        stim_conj = stim_conj.concat([feat + '-' + stim_inst]);
-    }
+    for (const stim_feat of STIM_FEATS) {
+        stim_conj = stim_conj.concat([stim_feat + '-' + stim_feats[stim_feat]]);
+    };
+
     if (flipped) {
         stim_conj = stim_conj.concat(['flipped']);
     };
+
     stim_fname = 'img/' + stim_conj.join('_') + '.png';
+
     return stim_fname;
 }
 
