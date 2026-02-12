@@ -15,6 +15,7 @@ from task_funcs import (
 )
 from config import (
     DEBUG,
+    SHOW_INSTRUCTIONS,
     DATA_PATH,
     IMG_PATH,
     TIMES,
@@ -23,50 +24,32 @@ from config import (
     SIZE_SCALE,
     POSITIONS,
     KEYS,
-    TEST_KEYS,
     INSTANCE_TMAT,
     FEATURE_TMAT,
     INSTRUCTIONS_KEYS
 )
 
 
+########################################################################
+### Setup session ######################################################
+########################################################################
+
 # Input session parameters
 SUBJ = input('Enter subject ID: ')
 CONDITION = int(input('Enter condition: '))
 SEED = int(input('Enter seed: '))
 PHASE = input('Enter phase "training" or "test": ')
-RUN = int(input('Enter run number: '))
 while True:
     if PHASE in ['training', 'test']:
         break
     PHASE = input('Invalid phase. Enter phase "training" or "test": ')
-if RUN == 1:
-    SHOW_INSTRUCTIONS = input('Show instructions? (y/n): ')
-    while True:
-        if SHOW_INSTRUCTIONS in ['y', 'n']:
-            SHOW_INSTRUCTIONS = SHOW_INSTRUCTIONS == 'y'
-            break
-        SHOW_INSTRUCTIONS = input('Enter "y" or "n". Show instructions? (y/n): ')
-else:
-    SHOW_INSTRUCTIONS = False
-
-if PHASE == 'test':
-    SIZE_SCALE = SIZE_SCALE/2
-    KEYS = TEST_KEYS
 
 # Create data directory
 DATA_PATH = f'{DATA_PATH}/feat-predict-mri_{SUBJ}'
 makedirs(DATA_PATH, exist_ok=True)
-    
+
+# Random seed for reproducibility
 np.random.seed(SEED)
-run_info = {
-    'id': SUBJ,
-    'seed': SEED,
-    'condition': CONDITION,
-    'between_cond': int(CONDITION in [1, 2, 5]),
-    'phase': PHASE,
-    'run': RUN
-}
 
 # Select feature transition matrix based on condition
 feature_tmat = FEATURE_TMAT[CONDITION]
@@ -111,96 +94,116 @@ text_display(win, 'Loading stimuli...')
 screen_objects = preload_stimuli(win, fnames_to_load, SIZES, POSITIONS)
 
 
-# Load total points accrued so far
-if PHASE == 'training':
-    if RUN > 1:
-        with open(
-            f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
-            'rb'
-        ) as f:
-            total_points = pickle.load(f)
-    else:
-        total_points = 0
-elif PHASE == 'test':
-    total_points = '???'
+########################################################################
+### Run task ##########################################################
+########################################################################
 
 # Instructions
 if SHOW_INSTRUCTIONS:
     instructions(win, screen_objects, INSTRUCTIONS_KEYS)
 
-# Initialize data frame
-data = pd.DataFrame(columns=[
-    'id',
-    'seed',
-    'condition',
-    'between_cond',
-    'phase',
-    'run',
-    't',
-    'target_comb',
-    'options_comb',
-    'options_fnames',
-    'options',
-    'correct_composition',
-    'composition_fname',
-    'composition',
-    'successor_fname',
-    'successor',
-    'target_fname',
-    'target',
-    'reward',
-    'correct',
-    'valid_response',
-    'rt',
-    'selections'
-])
+for run in range(1, len(phase_trial_info) + 1):
 
-# Global task clock
-running_time = 0
-clock = core.Clock()
-
-# Run phase
-for t, trial_info in enumerate(phase_trial_info[RUN - 1]):
-
-    # Run trial
-    trial_info = {
-        'clock': clock,
-        'running_time': running_time,
-        'win': win,
-        'times': TIMES,
-        'screen_objects': screen_objects,
-        'positions': POSITIONS,
-        'sizes': SIZES,
-        'task_to_stim_feature_map': task_to_stim_feature_map,
-        'task_to_stim_instance_map': task_to_stim_instance_map,
-        'feature_tmat': feature_tmat,
-        'instance_tmat': INSTANCE_TMAT,
-        'total_points': total_points,
-        'keys': KEYS,
-        'data': data,
-        'run_info': run_info,
-        't': t,
-        'data_path': DATA_PATH,
-        'debug': DEBUG,
-        **trial_info
+    run_info = {
+        'id': SUBJ,
+        'seed': SEED,
+        'condition': CONDITION,
+        'between_cond': int(CONDITION in [1, 2, 5]),
+        'phase': PHASE,
+        'run': run
     }
-    data, total_points, running_time = run_trial(**trial_info)
 
-# Post run delay
-screen_objects['+'].draw()
-win.flip()
-save_points = PHASE == 'training'
-running_time += POST_RUN_DELAY
-while clock.getTime() < running_time:
-    if save_points:
+    # Load total points accrued so far
+    if PHASE == 'training':
+        if run > 1:
+            with open(
+                f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
+                'rb'
+            ) as f:
+                total_points = pickle.load(f)
+        else:
+            total_points = 0
+    elif PHASE == 'test':
+        total_points = '???'
 
-        # Save points accumulated
-        save_points = False
-        with open(
-            f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
-            'wb'
-        ) as f:
-            pickle.dump(total_points, f)
+    # Take break instructions
+    #if SHOW_INSTRUCTIONS:
+    #    instructions(win, screen_objects, INSTRUCTIONS_KEYS)
+
+    # Initialize data frame
+    data = pd.DataFrame(columns=[
+        'id',
+        'seed',
+        'condition',
+        'between_cond',
+        'phase',
+        'run',
+        't',
+        'n_steps',
+        'target_comb',
+        'options_comb',
+        'options_fnames',
+        'options',
+        'correct_composition',
+        'composition_fname',
+        'composition',
+        'successor_fname',
+        'successor',
+        'target_fname',
+        'target',
+        'reward',
+        'correct',
+        'valid_response',
+        'rt',
+        'selections'
+    ])
+
+    # Global task clock
+    running_time = 0
+    clock = core.Clock()
+
+    # Run phase
+    for t, trial_info in enumerate(phase_trial_info[run - 1]):
+
+        # Run trial
+        trial_info = {
+            'clock': clock,
+            'running_time': running_time,
+            'win': win,
+            'times': TIMES,
+            'screen_objects': screen_objects,
+            'positions': POSITIONS,
+            'sizes': SIZES,
+            'task_to_stim_feature_map': task_to_stim_feature_map,
+            'task_to_stim_instance_map': task_to_stim_instance_map,
+            'feature_tmat': feature_tmat,
+            'instance_tmat': INSTANCE_TMAT,
+            'total_points': total_points,
+            'keys': KEYS,
+            'data': data,
+            'run_info': run_info,
+            't': t,
+            'data_path': DATA_PATH,
+            'debug': DEBUG,
+            **trial_info
+        }
+        data, total_points, running_time = run_trial(**trial_info)
+
+    # Post run delay
+    screen_objects['+'].draw()
+    win.flip()
+    save_points = PHASE == 'training'
+    running_time += POST_RUN_DELAY
+    while clock.getTime() < running_time:
+        if save_points:
+
+            # Save points accumulated
+            save_points = False
+            with open(
+                f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
+                'wb'
+            ) as f:
+                pickle.dump(total_points, f)
 
 
 # Close the window

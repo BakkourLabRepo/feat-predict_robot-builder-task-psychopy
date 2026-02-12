@@ -646,7 +646,6 @@ def run_trial(
     task_to_stim_instance_map = None,
     feature_tmat = None,
     instance_tmat = None,
-    show_transition = True,
     total_points = '???',
     keys = None,
     data = None,
@@ -994,6 +993,7 @@ def run_trial(
                 trial_data = {
                     **run_info,
                     't': t + 1,
+                    'n_steps': n_steps,
                     'target_comb': target_comb,
                     'options_comb': options_comb,
                     'options_fnames': options_fnames,
@@ -1029,6 +1029,7 @@ def run_trial(
         trial_data = {
             **run_info,
             't': t + 1,
+            'n_steps': n_steps,
             'target_comb': target_comb,
             'options_comb': options_comb,
             'options_fnames': options_fnames,

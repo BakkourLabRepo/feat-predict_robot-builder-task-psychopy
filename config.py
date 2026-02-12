@@ -1,7 +1,10 @@
 import numpy as np
 
 # Run in debug mode (fast ITIs and random responses)
-DEBUG = False
+DEBUG = True
+
+# Whether to show instructions
+SHOW_INSTRUCTIONS = True
 
 # Path to save data to
 DATA_PATH = 'data'
@@ -11,7 +14,6 @@ IMG_PATH = 'img/png'
 
 # Possible key presses during choice phase
 KEYS = ['1', '2', '9', '0']
-TEST_KEYS = ['1', '2', '9', '0']
 
 # Instructions keys
 INSTRUCTIONS_KEYS = {
