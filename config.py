@@ -4,13 +4,10 @@ import numpy as np
 DEBUG = False
 
 # Path to save data to
-DATA_PATH = ''
+DATA_PATH = 'data'
 
 # Path to image files
 IMG_PATH = 'img/png'
-
-# TR key from the scanner
-TR_KEY = 't'
 
 # Possible key presses during choice phase
 KEYS = ['1', '2', '9', '0']
@@ -30,15 +27,15 @@ COMPREHENSION_ANSWERS = {
 } 
 
 # Post-run delay
-POST_RUN_DELAY = 6.
+POST_RUN_DELAY = 1.
 
 # Duration of each trial phase during choice
 TIMES = {
-    'iti': 1,
-    'target': 4.5,
-    'choice': 6,
-    'seq1': 1.5,
-    'seq2': 1.5,
+    'iti': 0.5,
+    'target': 2,
+    'choice': 8,
+    'seq1': 2,
+    'seq2': 2,
     'reward': 1.5
 }
 

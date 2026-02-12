@@ -8,26 +8,6 @@ import numpy as np
 ### Task Loading Functions #########################################
 ########################################################################
 
-def load_itis(run):
-    """
-    Load ITIs for a given run
-
-    Arguments
-    ---------
-    run : int
-        Run number
-    
-    Returns
-    -------
-    itis : list
-        List of ITIs
-    """
-    set_id = np.random.permutation(len(listdir('iti'))) + 1
-    set_id = set_id[run - 1]
-    with open(f'iti/iti_{set_id}.pkl', 'rb') as f:
-        itis = pickle.load(f)
-    np.random.shuffle(itis) # Randomize ITI order
-    return itis
 
 def adjust_sizes(sizes, factor):
     """
@@ -654,40 +634,9 @@ def draw_features(screen_objects, key_to_img, feature_grid, selected=[]):
             i_selected += 1
         img.draw()
 
-def update_onset_times(onset_times, last_onset, onset):
-    """
-    Update onset times
-
-    Arguments
-    ---------
-    onset_times : pandas.DataFrame
-        Data frame to store onset times for each trial phase
-    last_onset : list
-        Length = 2 list where the first position is the last trial
-        phase name and the second position is the onset time
-    onset : float
-        Current onset time
-    
-    Returns
-    -------
-    onset_times : pandas.DataFrame
-        Updated onset times
-    last_onset : list
-        Updated last onset time
-    """
-    if last_onset[0] != None:
-        onset_times = onset_times.append({
-            'onset': last_onset[1],
-            'duration': onset - last_onset[1],
-            'trial_type': last_onset[0]
-        }, ignore_index=True)
-    return onset_times
-
 def run_trial(
     clock = None,
     running_time = None,
-    onset_times = None,
-    last_onset = [None, 0],
     win = None,
     times = None,
     screen_objects = None,
@@ -723,11 +672,6 @@ def run_trial(
         Clock object to track time
     running_time : float
         Running upper time limit for the run
-    onset_times : pandas.DataFrame
-        Data frame to store onset times for each trial phase
-    last_onset : list
-        Length = 2 list where the first position is the last trial
-        phase name and the second position is the onset time
     win : psychopy.visual.Window
         Window object to draw stimuli on
     times : dict
@@ -790,7 +734,6 @@ def run_trial(
     # Inter-trial interval
     screen_objects['+'].draw()
     win.flip()
-    onset = clock.getTime()
     setup_next = True
     running_time += times['iti']
     while clock.getTime() < running_time:
@@ -826,14 +769,9 @@ def run_trial(
             correct = -1
             reward = -5
 
-            # Update onset times
-            onset_times = update_onset_times(onset_times, last_onset, onset)
-            last_onset = ['iti', onset]
-
 
     # Target phase
     win.flip()
-    onset = clock.getTime()
     setup_next = True
     running_time += times['target']
     while clock.getTime() < running_time:
@@ -877,26 +815,14 @@ def run_trial(
             # Total earnings
             screen_objects['total_points'].text = f'Total points: {total_points}'
             screen_objects['total_points'].draw()
-
-            # Update onset times
-            onset_times = update_onset_times(onset_times, last_onset, onset)
-            last_onset = ['target', onset]
                 
 
     # Choice phase
     win.flip()
-    onset = clock.getTime()
     timer_clock = core.CountdownTimer(1)
     event.clearEvents()
-    setup_next = True
     running_time += times['choice']
     while clock.getTime() < running_time:
-        
-        # Update onset times
-        if setup_next:
-            setup_next = False
-            onset_times = update_onset_times(onset_times, last_onset, onset)
-            last_onset = ['choice', onset]
 
         # Update countdown
         if timer_clock.getTime() < 0:
@@ -1020,7 +946,6 @@ def run_trial(
             screen_objects['reward'].text = 'NO RESPONSE\n???'
             screen_objects['reward'].draw()
         win.flip()
-        onset = clock.getTime()
         setup_next = True
         running_time += times['seq1']
         while clock.getTime() < running_time:
@@ -1038,15 +963,10 @@ def run_trial(
                 else:
                     screen_objects['reward'].draw()
 
-                # Update onset times
-                onset_times = update_onset_times(onset_times, last_onset, onset)
-                last_onset = ['seq1', onset]
-
     # Show successor
     if task_phase == 'training':
         setup_next = True
         win.flip()
-        onset = clock.getTime()
         running_time += times['seq2']
         while clock.getTime() < running_time:
             if setup_next:
@@ -1060,24 +980,15 @@ def run_trial(
                 if task_phase == 'training':
                     total_points += reward
 
-                # Update onset times
-                onset_times = update_onset_times(onset_times, last_onset, onset)
-                last_onset = ['seq2', onset]
-
     # Show reward
     if task_phase == 'training':
         win.flip()
-        onset = clock.getTime()
         trial_saved = False
         running_time += times['reward']
         while clock.getTime() < running_time:
             
             if not trial_saved:
                 trial_saved = True
-
-                # Update onset times
-                onset_times = update_onset_times(onset_times, last_onset, onset)
-                last_onset = ['reward', onset]
 
                 # Format trial data
                 trial_data = {
@@ -1110,8 +1021,6 @@ def run_trial(
                 run = run_info['run']
                 fname = f'sub-{subj}_task-{phase}_run-{run:02}.csv'
                 data.to_csv(f'{data_path}/{fname}', index=False)
-                fname = f'sub-{subj}_task-{phase}_run-{run:02}_events.tsv'
-                onset_times.to_csv(f'{data_path}/{fname}', sep='\t', index=False)
     
     # Save test data. Time slip is less important here (outside scanner)
     elif task_phase == 'test':
@@ -1147,10 +1056,8 @@ def run_trial(
         run = run_info['run']
         fname = f'sub-{subj}_task-{phase}_run-{run:02}.csv'
         data.to_csv(f'{data_path}/{fname}', index=False)
-        fname = f'sub-{subj}_task-{phase}_run-{run:02}_events.tsv'
-        onset_times.to_csv(f'{data_path}/{fname}', sep='\t', index=False)
 
-    return data, total_points, running_time, onset_times, last_onset
+    return data, total_points, running_time
 
 
 def run_encoding_trial(

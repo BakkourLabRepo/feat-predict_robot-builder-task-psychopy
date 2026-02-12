@@ -10,9 +10,7 @@ from task_funcs import (
     adjust_positions,
     text_display,
     preload_stimuli,
-    load_itis,
     instructions,
-    update_onset_times,
     run_trial
 )
 from config import (
@@ -26,7 +24,6 @@ from config import (
     POSITIONS,
     KEYS,
     TEST_KEYS,
-    TR_KEY,
     INSTANCE_TMAT,
     FEATURE_TMAT,
     INSTRUCTIONS_KEYS
@@ -113,9 +110,6 @@ adjust_positions(POSITIONS, win_h)
 text_display(win, 'Loading stimuli...')
 screen_objects = preload_stimuli(win, fnames_to_load, SIZES, POSITIONS)
 
-# If training, load jittered ITIs
-if PHASE == 'training':
-    itis = load_itis(RUN)
 
 # Load total points accrued so far
 if PHASE == 'training':
@@ -133,11 +127,6 @@ elif PHASE == 'test':
 # Instructions
 if SHOW_INSTRUCTIONS:
     instructions(win, screen_objects, INSTRUCTIONS_KEYS)
-
-# Wait for scanner to stabilize
-text_display(win, 'Scanner starting up...')
-if not DEBUG and (PHASE == 'training'):
-    event.waitKeys(keyList=[TR_KEY])
 
 # Initialize data frame
 data = pd.DataFrame(columns=[
@@ -165,35 +154,20 @@ data = pd.DataFrame(columns=[
     'rt',
     'selections'
 ])
-onset_times = pd.DataFrame(columns=[
-    'onset',
-    'duration',
-    'trial_type'
-])
 
 # Global task clock
-last_onset = [None, 0]
 running_time = 0
 clock = core.Clock()
 
 # Run phase
 for t, trial_info in enumerate(phase_trial_info[RUN - 1]):
 
-    # Assign ITIs
-    if not DEBUG and (PHASE == 'training'):
-        times = TIMES.copy()
-        times['iti'] = itis[t]
-    else:
-        times = TIMES
-
     # Run trial
     trial_info = {
         'clock': clock,
         'running_time': running_time,
-        'onset_times': onset_times,
-        'last_onset': last_onset,
         'win': win,
-        'times': times,
+        'times': TIMES,
         'screen_objects': screen_objects,
         'positions': POSITIONS,
         'sizes': SIZES,
@@ -210,14 +184,11 @@ for t, trial_info in enumerate(phase_trial_info[RUN - 1]):
         'debug': DEBUG,
         **trial_info
     }
-    data, total_points, running_time, onset_times, last_onset = run_trial(
-        **trial_info
-    )
+    data, total_points, running_time = run_trial(**trial_info)
 
 # Post run delay
 screen_objects['+'].draw()
 win.flip()
-onset = clock.getTime()
 save_points = PHASE == 'training'
 running_time += POST_RUN_DELAY
 while clock.getTime() < running_time:
@@ -231,18 +202,6 @@ while clock.getTime() < running_time:
         ) as f:
             pickle.dump(total_points, f)
 
-        # Update onset times
-        onset_times = update_onset_times(onset_times, last_onset, onset)
-        last_onset = ['iti', onset]
-
-# Save onsets
-onset = clock.getTime()
-onset_times = update_onset_times(onset_times, last_onset, onset)
-onset_times.to_csv(
-    f'{DATA_PATH}/sub-{SUBJ}_task-{PHASE}_run-{RUN:02}_events.tsv',
-    sep = '\t',
-    index = False
-)
 
 # Close the window
 win.close()
