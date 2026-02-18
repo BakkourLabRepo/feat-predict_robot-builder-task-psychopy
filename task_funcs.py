@@ -730,6 +730,12 @@ def run_trial(
         Running upper time limit for the run
     """
 
+    # Get run-independent trial
+    if len(data) == 0:
+        trial = 1
+    else:
+        trial = data['t'].iloc[-1] + 1
+
     # Inter-trial interval
     screen_objects['+'].draw()
     win.flip()
@@ -992,7 +998,7 @@ def run_trial(
                 # Format trial data
                 trial_data = {
                     **run_info,
-                    't': t + 1,
+                    't': trial,
                     'n_steps': n_steps,
                     'target_comb': target_comb,
                     'options_comb': options_comb,
@@ -1018,8 +1024,7 @@ def run_trial(
                 # Save data
                 phase = run_info['phase']
                 subj = run_info['id']
-                run = run_info['run']
-                fname = f'sub-{subj}_task-{phase}_run-{run:02}.csv'
+                fname = f'sub-{subj}_task-{phase}.csv'
                 data.to_csv(f'{data_path}/{fname}', index=False)
     
     # Save test data. Time slip is less important here (outside scanner)
@@ -1028,7 +1033,7 @@ def run_trial(
         # Format trial data
         trial_data = {
             **run_info,
-            't': t + 1,
+            't': trial,
             'n_steps': n_steps,
             'target_comb': target_comb,
             'options_comb': options_comb,
@@ -1054,8 +1059,7 @@ def run_trial(
         # Save data
         phase = run_info['phase']
         subj = run_info['id']
-        run = run_info['run']
-        fname = f'sub-{subj}_task-{phase}_run-{run:02}.csv'
+        fname = f'sub-{subj}_task-{phase}.csv'
         data.to_csv(f'{data_path}/{fname}', index=False)
 
     return data, total_points, running_time

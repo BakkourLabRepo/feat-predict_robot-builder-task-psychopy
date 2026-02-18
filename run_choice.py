@@ -102,6 +102,40 @@ screen_objects = preload_stimuli(win, fnames_to_load, SIZES, POSITIONS)
 if SHOW_INSTRUCTIONS:
     instructions(win, screen_objects, INSTRUCTIONS_KEYS)
 
+# Initialize data frame
+data = pd.DataFrame(columns=[
+    'id',
+    'seed',
+    'condition',
+    'between_cond',
+    'phase',
+    'run',
+    't',
+    'n_steps',
+    'target_comb',
+    'options_comb',
+    'options_fnames',
+    'options',
+    'correct_composition',
+    'composition_fname',
+    'composition',
+    'successor_fname',
+    'successor',
+    'target_fname',
+    'target',
+    'reward',
+    'correct',
+    'valid_response',
+    'rt',
+    'selections'
+])
+
+# Initialize total points 
+if PHASE == 'training':
+    total_points = 0
+elif PHASE == 'test':
+    total_points = '???'
+
 for run in range(1, len(phase_trial_info) + 1):
 
     run_info = {
@@ -113,50 +147,9 @@ for run in range(1, len(phase_trial_info) + 1):
         'run': run
     }
 
-    # Load total points accrued so far
-    if PHASE == 'training':
-        if run > 1:
-            with open(
-                f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
-                'rb'
-            ) as f:
-                total_points = pickle.load(f)
-        else:
-            total_points = 0
-    elif PHASE == 'test':
-        total_points = '???'
-
     # Take break instructions
     #if SHOW_INSTRUCTIONS:
     #    instructions(win, screen_objects, INSTRUCTIONS_KEYS)
-
-    # Initialize data frame
-    data = pd.DataFrame(columns=[
-        'id',
-        'seed',
-        'condition',
-        'between_cond',
-        'phase',
-        'run',
-        't',
-        'n_steps',
-        'target_comb',
-        'options_comb',
-        'options_fnames',
-        'options',
-        'correct_composition',
-        'composition_fname',
-        'composition',
-        'successor_fname',
-        'successor',
-        'target_fname',
-        'target',
-        'reward',
-        'correct',
-        'valid_response',
-        'rt',
-        'selections'
-    ])
 
     # Global task clock
     running_time = 0
@@ -192,19 +185,11 @@ for run in range(1, len(phase_trial_info) + 1):
     # Post run delay
     screen_objects['+'].draw()
     win.flip()
-    save_points = PHASE == 'training'
     running_time += POST_RUN_DELAY
     while clock.getTime() < running_time:
-        if save_points:
+        pass
 
-            # Save points accumulated
-            save_points = False
-            with open(
-                f'{DATA_PATH}/points_{SUBJ}-{SEED}-{CONDITION}.pkl',
-                'wb'
-            ) as f:
-                pickle.dump(total_points, f)
-
+print(f'Total points for {PHASE}: {total_points}')
 
 # Close the window
 win.close()

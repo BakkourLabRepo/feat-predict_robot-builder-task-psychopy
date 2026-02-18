@@ -28,9 +28,6 @@ COMPREHENSION_ANSWERS = {
     'oddball': ['2', '4', '3'] 
 } 
 
-# Post-run delay
-POST_RUN_DELAY = 1.
-
 # Duration of each trial phase during choice
 TIMES = {
     'iti': 0.5,
