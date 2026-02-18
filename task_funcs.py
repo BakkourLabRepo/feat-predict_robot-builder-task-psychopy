@@ -122,7 +122,7 @@ def preload_stimuli(win, fnames_to_load, sizes, positions):
         # Size differs for robots parts versus robots
         if 'robot_parts' in fname:
             height = sizes['robot_parts'][0]
-        elif 'instructions' in fname:
+        elif 'instructions' in fname or 'fingers' in fname:
             height = sizes['instructions'][0]
         else:
             height = sizes['robots'][0]
@@ -131,7 +131,10 @@ def preload_stimuli(win, fnames_to_load, sizes, positions):
         key = fname.split('/')[-1]
         if 'instructions' in fname:
             key = key.replace('.png', '')
-            key = int(key.split('_')[1])
+            if 'fingers' in key:
+                key = 'fingers'
+            else:
+                key = int(key.split('_')[1])
         else: 
             key = 'img/' + key
 
@@ -259,6 +262,15 @@ def preload_stimuli(win, fnames_to_load, sizes, positions):
         color = 'white',
         height = sizes['text']
     )
+
+    # Countdown before choice phase
+    screen_objects['countdown'] = visual.TextStim(
+        win = win,
+        text = '',
+        pos = (0, 0),
+        color = 'white',
+        height = sizes['text']
+    )
     
     # Display total points 
     screen_objects['total_points'] = visual.TextStim(
@@ -278,8 +290,85 @@ def preload_stimuli(win, fnames_to_load, sizes, positions):
         height = sizes['text']
     )
 
+    # Break text
+    screen_objects['break'] = visual.TextStim(
+        win = win,
+        text = 'Take a break!\nPress any key to continue.',
+        pos = (0, 0),
+        color = 'white',
+        height = sizes['text']
+    )
+
     return screen_objects
 
+
+def preload_covertask_stimuli(win, fnames_to_load, sizes):
+    """
+    Preload cover task (oneback or oddball) stimuli 
+
+    Arguments
+    ---------
+    win : psychopy.visual.Window
+        Window object to draw stimuli on
+    fnames_to_load : list   
+        List of file names to load
+    sizes : dict
+        Dictionary containing sizes for each stimulus type
+    
+    Returns
+    -------
+    screen_objects : dict
+        Dictionary containing all screen objects
+    """
+
+    # Dictionary to store screen objects
+    screen_objects = {}
+
+    # For each stimulus type load images
+    for fname in fnames_to_load:
+        if not '.png' in fname:
+            continue
+
+        # Size differs for robots parts versus robots
+        if 'robot_parts' in fname:
+            height = sizes['robot_parts'][0]*2
+        elif 'instructions' in fname:
+            height = sizes['instructions'][0]
+        else:
+            height = sizes['robots'][0]
+
+        # Get key for stimulus
+        key = fname.split('/')[-1]
+        if 'instructions' in fname:
+            key = key.replace('.png', '')
+            key = int(key.split('_')[1])
+        else: 
+            key = 'img/' + key
+
+        # Load image
+        screen_objects[key] = visual.ImageStim(
+            win,
+            image = fname
+        )
+        aspect_ratio = screen_objects[key].size[0]/screen_objects[key].size[1]  
+        width = height*aspect_ratio
+        screen_objects[key].size = [width, height]
+
+    # Fixation cross
+    screen_objects['+'] = visual.TextStim(
+        win,
+        text = '+',
+        height = sizes['text']
+    )
+
+    # Category label cross
+    screen_objects['category'] = visual.TextStim(
+        win,
+        text = '',
+        height = sizes['text']
+    )
+
+    return screen_objects
     
 
 def preload_comprehension_instructions(win, fnames_to_load, sizes):
@@ -492,6 +581,28 @@ def instructions(win, screen_objects, instructions_keys):
         if pane < 1:
             pane = 1
 
+
+def fingers_to_keys(win, screen_objects, keys):
+    """
+    Displays instructions for mapping fingers to keys
+
+    Arguments
+    ---------
+    win : psychopy.visual.Window
+        Window object to draw stimuli on
+    screen_objects : dict
+        Dictionary of screen objects
+    keys : list
+        List of response keys
+    
+    Returns
+    -------
+    None
+    """
+    screen_objects['fingers'].draw()
+    win.flip()
+    event.waitKeys(keyList = keys + ['escape'])
+
 def comprehension(win, screen_objects, answers):
     """
     
@@ -517,6 +628,32 @@ def comprehension(win, screen_objects, answers):
     
     # Passed comprehension
     return True
+
+def countdown(win, screen_objects, start_time=3):
+    """
+    Displays countdown on screen
+
+    Arguments
+    ---------
+    win : psychopy.visual.Window
+        Window object to draw stimuli on
+    screen_objects : dict
+        Dictionary of screen objects
+    start_time : int
+        Starting time for countdown
+    
+    Returns
+    -------
+    None
+    """
+    count = list(range(start_time + 1))
+    timer_clock = core.CountdownTimer(1)
+    while count:
+        if timer_clock.getTime() < 0:
+            screen_objects['countdown'].text = str(count.pop())
+            screen_objects['countdown'].draw()
+            win.flip()
+            timer_clock.add(1)
 
 def get_successor(conj, instance_tmat, feature_tmat):
     """

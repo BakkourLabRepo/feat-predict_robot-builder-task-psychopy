@@ -1,7 +1,7 @@
 import numpy as np
 
 # Run in debug mode (fast ITIs and random responses)
-DEBUG = True
+DEBUG = False
 
 # Whether to show instructions
 SHOW_INSTRUCTIONS = True
@@ -21,12 +21,8 @@ INSTRUCTIONS_KEYS = {
     'backward': ['left', 'b', 'y'],
 }
 
-# Correct key presses for comprehension tests
-COMPREHENSION_ANSWERS = {
-    'training': ['2', '1', '2', '2'],
-    'oneback': ['2', '4', '3'],
-    'oddball': ['2', '4', '3'] 
-} 
+# Correct key presses for comprehension test
+COMPREHENSION_ANSWERS = ['2', '1', '2', '2']
 
 # Duration of each trial phase during choice
 TIMES = {
@@ -50,14 +46,13 @@ CATEGORY_REPEATS = 2
 
 # Fast times if debugging
 if DEBUG:
-    TIMES = {key: .1 for key in TIMES.keys()}
+    TIMES = {key: .2 for key in TIMES.keys()}
+    ENCODING_TIMES = {key: .2 for key in ENCODING_TIMES.keys()}
     PRE_RUN_DELAY = .05
     POST_RUN_DELAY = .05
 
 # Stimulus sizes. Will be re-scaled based on window height.
 SIZE_SCALE = 1
-SIZE_SCALE_COMPREHENSION = 1
-SIZE_SCALE_ENCODING = 1
 SIZES = {
     'robot_parts': (.045, .045),
     'robots': (.13, 0.13),
