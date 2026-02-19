@@ -172,48 +172,50 @@ for _ in range(CATEGORY_REPEATS):
 ### Run Comprehension #################################################
 #######################################################################
 
-# Load instructions images
-fnames_to_load = []
-for fname in listdir(f'{IMG_PATH}/instructions'):
-    if 'training' in fname:
-        fpath = f'{IMG_PATH}/instructions/{fname}'
-        fnames_to_load.append(fpath)
+if SHOW_INSTRUCTIONS:
 
-# Preload stimuli
-text_display(win, 'Loading stimuli...')
-screen_objects = preload_comprehension_instructions(
-    win,
-    fnames_to_load,
-    SIZES
-    )
+    # Load instructions images
+    fnames_to_load = []
+    for fname in listdir(f'{IMG_PATH}/instructions'):
+        if 'training' in fname:
+            fpath = f'{IMG_PATH}/instructions/{fname}'
+            fnames_to_load.append(fpath)
 
-# Run instructions and test loop
-passed = False
-while not passed:
-
-    # Show instructions
-    instructions(
+    # Preload stimuli
+    text_display(win, 'Loading stimuli...')
+    screen_objects = preload_comprehension_instructions(
         win,
-        screen_objects, 
-        INSTRUCTIONS_KEYS
-    )
+        fnames_to_load,
+        SIZES
+        )
 
-    text_display(
-        win,
-        'You will now be tested on your understanding of the instructions. Press any key to begin.')
-    event.waitKeys()
+    # Run instructions and test loop
+    passed = False
+    while not passed:
 
-    # Run comprehension test
-    passed = comprehension(win, screen_objects, COMPREHENSION_ANSWERS)
+        # Show instructions
+        instructions(
+            win,
+            screen_objects, 
+            INSTRUCTIONS_KEYS
+        )
 
-    if not passed:
         text_display(
             win,
-            'That was not correct. Please read the instructions carefully and try again. Press any key to continue.')
+            'You will now be tested on your understanding of the instructions. Press any key to begin.')
         event.waitKeys()
 
-text_display(win, 'You passed the comprehension test!\n\nYou\'ll now start the real task.\n\nPress any key to continue.')
-event.waitKeys()
+        # Run comprehension test
+        passed = comprehension(win, screen_objects, COMPREHENSION_ANSWERS)
+
+        if not passed:
+            text_display(
+                win,
+                'That was not correct. Please read the instructions carefully and try again. Press any key to continue.')
+            event.waitKeys()
+
+    text_display(win, 'You passed the comprehension test!\n\nYou\'ll now start the real task.\n\nPress any key to continue.')
+    event.waitKeys()
 
 
 #######################################################################

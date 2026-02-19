@@ -138,6 +138,7 @@ function generateTrials(
     let correct_compositions = [];
     let targets = [];
     let options = [];
+    let n_causal = [];
     let n_inference_steps = [];
     for (const comb of combs) {
 
@@ -205,7 +206,6 @@ function generateTrials(
                             )
                         );
 
-
                         // Add to options set for this combination
                         for (let i = 0; i < conj_rate; i++) {
                             comb_options = comb_options.concat([
@@ -230,6 +230,21 @@ function generateTrials(
             };
         };
 
+        // Count number of causal inferences that can
+        // be made based on the target and options
+        let comb_n_causal = [];
+        for (
+            const [trial, correct_composition]
+            of comb_correct_compositions.entries()
+        ) {
+            comb_n_causal = comb_n_causal.concat([
+                countFeaturesInOptions(
+                    correct_composition,
+                    comb_options[trial]
+                )
+            ]);
+        };
+
         // Shuffle trial order
         const idx = jsPsych.randomization.shuffleNoRepeats(
             createIntArray(comb_targets.length)
@@ -237,12 +252,14 @@ function generateTrials(
         comb_correct_compositions = sortByIndex(comb_correct_compositions, idx);
         comb_targets = sortByIndex(comb_targets, idx);
         comb_options = sortByIndex(comb_options, idx);
+        comb_n_causal = sortByIndex(comb_n_causal, idx);
         comb_n_inference_steps = sortByIndex(comb_n_inference_steps, idx);
         
         // Add to full set
         correct_compositions = correct_compositions.concat(comb_correct_compositions);
         targets = targets.concat(comb_targets);
         options = options.concat(comb_options);
+        n_causal = n_causal.concat(comb_n_causal);
         n_inference_steps = n_inference_steps.concat(comb_n_inference_steps);
     };
 
@@ -254,6 +271,7 @@ function generateTrials(
         correct_compositions = sortByIndex(correct_compositions, idx);
         targets = sortByIndex(targets, idx);
         options = sortByIndex(options, idx);
+        n_causal = sortByIndex(n_causal, idx);
         n_inference_steps = sortByIndex(n_inference_steps, idx);
     }
 
@@ -261,6 +279,7 @@ function generateTrials(
         'correct_compositions': correct_compositions,
         'targets': targets,
         'options': options,
+        'n_causal': n_causal,
         'n_inference_steps': n_inference_steps
     };
 };

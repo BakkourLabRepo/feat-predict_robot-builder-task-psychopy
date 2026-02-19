@@ -206,7 +206,9 @@
                 let train_correct_compositions = train_samples['correct_compositions'];
                 let train_targets = train_samples['targets'];
                 let train_options = train_samples['options'];
+                let train_n_causal = train_samples['n_causal'];
                 let train_n_inference_steps = train_samples['n_inference_steps'];
+
                 
                 // Get stimulus file names
                 let train_targets_fnames = getTrialFileNames(
@@ -237,7 +239,177 @@
                 let test_correct_compositions = test_samples['correct_compositions'];
                 let test_targets = test_samples['targets'];
                 let test_options = test_samples['options'];
+                let test_n_causal = test_samples['n_causal'];
                 let test_n_inference_steps = test_samples['n_inference_steps'];
+
+                
+                // Subset test trials 
+                if (!ALL_TEST_TRIALS) {
+
+                    // Initialize counters for relevant trial types
+                    let trials_to_keep = [];
+                    let old_count = 0;
+                    let spurious_count = 0;
+                    let novel_options_target_count = createRepeatingArray(
+                        0,
+                        N_NOVEL_OPTIONS_TARGET_TRIALS.length
+                    );
+                    let novel_options_count = createRepeatingArray(
+                        0,
+                        N_NOVEL_OPTIONS_TRIALS.length
+                    );
+                    let novel_target_count = createRepeatingArray(
+                        0,
+                        N_NOVEL_TARGET_TRIALS.length
+                    );
+                    const max_steps = Math.max(...N_STEPS_LEVELS_TEST)
+
+                    // Check what kind of trial each test trial is
+                    for (let trial = 0; trial < test_targets.length; trial++) {
+                        let to_keep = 0;
+                        const n_causal = test_n_causal[trial];
+
+                        // Is the target novel?
+                        const target = test_targets[trial];
+                        const target_comb = binarizeArray(target);
+                        const novel_target = !isSubarrayIn2DArray(
+                            target_comb,
+                            TRAINING_COMBS
+                        );
+
+                        // Is the options set novel?
+                        const options = test_options[trial];
+                        let options_comb = createRepeatingArray(0, N_FEATS);
+                        for (let i = 0; i < options.length; i++) {
+                            options_comb = elementWiseSum(
+                                options_comb,
+                                options[i][0]
+                            );
+                            options_comb = binarizeArray(options_comb);
+                        };
+                        const novel_options = !isSubarrayIn2DArray(
+                            options_comb,
+                            TRAINING_COMBS
+                        );
+
+                        // What n-step inference is this and what is the
+                        // starting step?
+                        const n_inference_steps = test_n_inference_steps[trial];
+                        let step = 0;
+                        if (n_inference_steps == 1) {
+                            const options_insts = getNonZeroValues(options[0][0])
+                            for (const start_insts of START_INSTS) {
+                                if (hasCommonElements(
+                                    options_insts,
+                                    start_insts
+                                )) {
+                                    break
+                                };
+                                step += 1;
+                            };
+                        };
+                        let trial_type_idx = 2*n_inference_steps + step 
+                        trial_type_idx -= max_steps
+                        
+                        
+                        // Is this an old trial from training
+                        if (
+                            !novel_target &&
+                            (n_causal == N_PER) &&
+                            (
+                                old_count <
+                                N_OLD_TRIALS
+                            )
+                        ) {
+                            to_keep = 1;
+                            old_count += 1;
+                        }
+
+                        // Is this a trial where only spurious inference
+                        // can be made?
+                        if (
+                            novel_target &&
+                            (n_causal == 0) &&
+                            (
+                                spurious_count <
+                                N_SPURIOUS_TRIALS
+                            )
+                        ) {
+                            to_keep = 1;
+                            spurious_count += 1;
+                        }
+
+                        // Does this trial have the specified number of 
+                        // possible inferences?
+                        if (n_causal == N_CAUSAL_INFERENCES_NOVEL) {
+                            
+                            // Trial with novel options and target
+                            if (
+                                novel_options &&
+                                novel_target &&
+                                (
+                                    novel_options_target_count[trial_type_idx] <
+                                    N_NOVEL_OPTIONS_TARGET_TRIALS[trial_type_idx]
+                                )
+                            ) {
+                                to_keep = 1;
+                                novel_options_target_count[trial_type_idx] += 1
+
+                            // Trial with novel options and old target
+                            } else if (
+                                novel_options &&
+                                (
+                                    novel_options_count[trial_type_idx] <
+                                    N_NOVEL_OPTIONS_TRIALS[trial_type_idx]
+                                )
+                            ) {
+                                to_keep = 1;
+                                novel_options_count[trial_type_idx] += 1
+
+                            // Trial with novel target and old options
+                            } else if (
+                                novel_target &&
+                                (
+                                    novel_target_count[trial_type_idx] <
+                                    N_NOVEL_TARGET_TRIALS[trial_type_idx]
+                                )
+                            ) {
+                                to_keep = 1;
+                                novel_target_count[trial_type_idx] += 1
+                            };
+
+                        }; 
+                        
+                        // Log trials to keep
+                        if (to_keep) {
+                            trials_to_keep = trials_to_keep.concat(trial)
+                        };
+
+                    };
+
+                    // Apply index to subset test trials
+                    test_correct_compositions = sortByIndex(
+                        test_correct_compositions,
+                        trials_to_keep
+                    );
+                    test_targets = sortByIndex(
+                        test_targets,
+                        trials_to_keep
+                    );
+                    test_options = sortByIndex(
+                        test_options,
+                        trials_to_keep
+                    );
+                    test_n_causal = sortByIndex(
+                        test_n_causal,
+                        trials_to_keep
+                    );
+                    test_n_inference_steps = sortByIndex(
+                        test_n_inference_steps,
+                        trials_to_keep
+                    );
+
+                };
 
                 // Get stimulus file names
                 let test_targets_fnames = getTrialFileNames(
@@ -250,6 +422,7 @@
                     task_to_stim_feature_map,
                     task_to_stim_instance_map
                 );
+                
 
                 ////////////////////////////////////////////////////////
                 // Generate choice phase timeline variables //

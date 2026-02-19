@@ -179,6 +179,29 @@ function shuffle(array) {
     };
 };
 
+// Count number of feature a conjunction has in an options set
+function countFeaturesInOptions(conj, options) {
+    let n_matches = 0;
+    for (const [feat, inst] of conj.entries()) {
+        if (inst == 0) {
+            continue;
+        };
+        const feat_arr = createOneHotArray(
+            conj.length,
+            feat,
+            filled_value = inst
+        );
+        for (const options_group of options) {
+            if (isSubarrayIn2DArray(
+                feat_arr,
+                options_group
+            )) {
+                n_matches += 1;
+            }
+        };
+    };
+    return n_matches;
+};
 
 // Save dictionary as json or js var
 // Delay time used for multiple downloads 

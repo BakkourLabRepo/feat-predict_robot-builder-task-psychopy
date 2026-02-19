@@ -71,6 +71,16 @@ const N_FRACTALS = N_FEATS*N_INSTS;
 const NO_RESPONSE_REWARD = -5;
 const N_STEPS_LEVELS_TRAINING = [1];
 const N_STEPS_LEVELS_TEST = [1, 2];
+const ALL_TEST_TRIALS = false;
+const N_CAUSAL_INFERENCES_NOVEL = 1;
+
+// Number of test trial types
+const N_OLD_TRIALS = 24;
+const N_SPURIOUS_TRIALS = 30;
+// below: [1-step (start = 0), 1-step (start = 1), 2-step (start = 0)]
+const N_NOVEL_OPTIONS_TARGET_TRIALS = [10, 10, 10];
+const N_NOVEL_OPTIONS_TRIALS = [10, 10, 10];
+const N_NOVEL_TARGET_TRIALS = [10, 10, 10];
 
 // Transition matrix between instance levels
 const INSTANCE_TMAT = [[1,0,0,0,0,0],
