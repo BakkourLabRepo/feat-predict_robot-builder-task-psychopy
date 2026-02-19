@@ -34,6 +34,10 @@ TIMES = {
     'reward': 1.5
 }
 
+# Delay before starting the first trial
+PRE_RUN_DELAY = 1
+POST_RUN_DELAY = 1
+
 # Encoding times
 ENCODING_TIMES = {
     'category': 1.5,
