@@ -1,10 +1,10 @@
 import numpy as np
 
 # Run in debug mode (fast ITIs and random responses)
-DEBUG = False
+DEBUG = True
 
 # Whether to show instructions
-SHOW_INSTRUCTIONS = True
+SHOW_INSTRUCTIONS = False
 
 # Path to save data to
 DATA_PATH = 'data'
