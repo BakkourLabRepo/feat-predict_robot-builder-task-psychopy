@@ -12538,9 +12538,7 @@
         ],
         "n_steps": 1,
         "practice": 0
-      }
-    ],
-    [
+      },
       {
         "task_phase": "test",
         "options": [
@@ -13071,6 +13069,64 @@
               0,
               0,
               0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ],
+          [
+            "img/bo-0_he-5_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-6_he-3_ar-0_an-0.png",
+        "correct_composition": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
               2
             ],
             [
@@ -13169,7 +13225,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-4_he-0_ar-0_an-1.png",
+        "target_fname": "img/bo-4_he-0_ar-0_an-1_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -13295,6 +13351,66 @@
         "n_steps": 1,
         "practice": 0
       },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ],
+          [
+            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          0,
+          1
+        ],
+        "target_fname": "img/bo-6_he-0_ar-1_an-0_flipped.png",
+        "correct_composition": [
+          4,
+          0,
+          0,
+          3
+        ],
+        "n_steps": 2,
+        "practice": 0
+      }
+    ],
+    [
       {
         "task_phase": "test",
         "options": [
@@ -13575,7 +13691,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-4_ar-5_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-4_ar-5_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -13633,7 +13749,7 @@
           5,
           5
         ],
-        "target_fname": "img/bo-0_he-6_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-2_an-0.png",
         "correct_composition": [
           4,
           4,
@@ -13691,7 +13807,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-4_he-0_ar-0_an-5.png",
+        "target_fname": "img/bo-4_he-0_ar-0_an-5_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -13749,7 +13865,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-4_ar-5_an-0.png",
+        "target_fname": "img/bo-0_he-4_ar-5_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -13981,7 +14097,7 @@
           0,
           1
         ],
-        "target_fname": "img/bo-3_he-0_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-3_he-0_ar-1_an-0.png",
         "correct_composition": [
           0,
           2,
@@ -14039,7 +14155,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-3_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-3_he-0_ar-0_an-3.png",
         "correct_composition": [
           0,
           0,
@@ -14047,6 +14163,64 @@
           5
         ],
         "n_steps": 1,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-0_he-3_ar-0_an-3_flipped.png",
+        "correct_composition": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "n_steps": 2,
         "practice": 0
       },
       {
@@ -14155,7 +14329,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-0_he-0_ar-5_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-5_an-4_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -14213,7 +14387,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-0_he-4_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-4_ar-0_an-3.png",
         "correct_composition": [
           0,
           4,
@@ -14271,7 +14445,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-3_ar-0_an-3.png",
+        "target_fname": "img/bo-0_he-3_ar-0_an-3_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -14279,6 +14453,64 @@
           5
         ],
         "n_steps": 1,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-6_he-3_ar-0_an-0_flipped.png",
+        "correct_composition": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "n_steps": 2,
         "practice": 0
       },
       {
@@ -14445,7 +14677,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-0_he-4_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-4_ar-1_an-0.png",
         "correct_composition": [
           2,
           2,
@@ -14503,7 +14735,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-5_he-0_ar-0_an-1_flipped.png",
+        "target_fname": "img/bo-5_he-0_ar-0_an-1.png",
         "correct_composition": [
           0,
           0,
@@ -14619,7 +14851,7 @@
           6,
           0
         ],
-        "target_fname": "img/bo-0_he-3_ar-0_an-3.png",
+        "target_fname": "img/bo-0_he-3_ar-0_an-3_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -14677,7 +14909,7 @@
           6,
           1
         ],
-        "target_fname": "img/bo-0_he-3_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-3_ar-1_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -14793,7 +15025,7 @@
           0,
           0
         ],
-        "target_fname": "img/bo-3_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-3_he-0_ar-0_an-3.png",
         "correct_composition": [
           0,
           0,
@@ -14967,7 +15199,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-3_he-4_ar-0_an-0.png",
+        "target_fname": "img/bo-3_he-4_ar-0_an-0_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -15083,7 +15315,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-0_he-4_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-4_ar-1_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -15141,7 +15373,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-0_he-4_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-4_ar-1_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -15199,12 +15431,70 @@
           6,
           6
         ],
-        "target_fname": "img/bo-0_he-3_ar-5_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-3_ar-5_an-0.png",
         "correct_composition": [
           0,
           0,
           4,
           4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ]
+        ],
+        "target": [
+          6,
+          1,
+          0,
+          0
+        ],
+        "target_fname": "img/bo-6_he-0_ar-0_an-4.png",
+        "correct_composition": [
+          4,
+          3,
+          0,
+          0
         ],
         "n_steps": 2,
         "practice": 0
@@ -15257,7 +15547,7 @@
           1,
           0
         ],
-        "target_fname": "img/bo-0_he-4_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-4_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -15330,6 +15620,64 @@
         "options": [
           [
             [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ]
+        ],
+        "target": [
+          1,
+          6,
+          0,
+          0
+        ],
+        "target_fname": "img/bo-3_he-0_ar-0_an-3.png",
+        "correct_composition": [
+          3,
+          4,
+          0,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
               5,
               0,
               0,
@@ -15381,6 +15729,64 @@
           0
         ],
         "n_steps": 1,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          1,
+          0,
+          0
+        ],
+        "target_fname": "img/bo-6_he-0_ar-0_an-4.png",
+        "correct_composition": [
+          4,
+          3,
+          0,
+          0
+        ],
+        "n_steps": 2,
         "practice": 0
       },
       {
@@ -15489,7 +15895,7 @@
           0,
           6
         ],
-        "target_fname": "img/bo-0_he-0_ar-5_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-5_an-4_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -15605,12 +16011,128 @@
           1,
           0
         ],
-        "target_fname": "img/bo-0_he-4_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-4_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           3,
           3,
           0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          0,
+          1
+        ],
+        "target_fname": "img/bo-0_he-0_ar-1_an-3_flipped.png",
+        "correct_composition": [
+          0,
+          4,
+          0,
+          3
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-5_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          0,
+          1,
+          6
+        ],
+        "target_fname": "img/bo-0_he-4_ar-5_an-0_flipped.png",
+        "correct_composition": [
+          0,
+          0,
+          3,
+          4
         ],
         "n_steps": 2,
         "practice": 0
@@ -15736,6 +16258,180 @@
         "options": [
           [
             [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-0_he-0_ar-5_an-3_flipped.png",
+        "correct_composition": [
+          0,
+          4,
+          0,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ]
+        ],
+        "target": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "target_fname": "img/bo-0_he-4_ar-1_an-0.png",
+        "correct_composition": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-6_he-0_ar-5_an-0_flipped.png",
+        "correct_composition": [
+          4,
+          0,
+          0,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
               0,
               0,
               0,
@@ -15779,7 +16475,7 @@
           5,
           0
         ],
-        "target_fname": "img/bo-4_he-6_ar-0_an-0.png",
+        "target_fname": "img/bo-4_he-6_ar-0_an-0_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -15787,6 +16483,238 @@
           0
         ],
         "n_steps": 1,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ],
+          [
+            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-3_he-3_ar-0_an-0.png",
+        "correct_composition": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-5_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          1,
+          0,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-3_he-0_ar-5_an-0.png",
+        "correct_composition": [
+          3,
+          0,
+          0,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-6_he-0_ar-5_an-0.png",
+        "correct_composition": [
+          4,
+          0,
+          0,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "target_fname": "img/bo-0_he-4_ar-0_an-3.png",
+        "correct_composition": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "n_steps": 2,
         "practice": 0
       },
       {
@@ -15837,7 +16765,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-0_he-4_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-4_ar-1_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -15910,6 +16838,122 @@
         "options": [
           [
             [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ],
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-0_he-0_ar-5_an-3.png",
+        "correct_composition": [
+          0,
+          4,
+          0,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ]
+        ],
+        "target": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "target_fname": "img/bo-3_he-4_ar-0_an-0_flipped.png",
+        "correct_composition": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
               3,
               0,
               0,
@@ -15953,7 +16997,7 @@
           5,
           2
         ],
-        "target_fname": "img/bo-0_he-6_ar-4_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-4_an-0.png",
         "correct_composition": [
           4,
           3,
@@ -16026,6 +17070,122 @@
         "options": [
           [
             [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          1,
+          6,
+          0,
+          0
+        ],
+        "target_fname": "img/bo-3_he-0_ar-0_an-3_flipped.png",
+        "correct_composition": [
+          3,
+          4,
+          0,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ]
+        ],
+        "target": [
+          0,
+          0,
+          6,
+          6
+        ],
+        "target_fname": "img/bo-0_he-3_ar-5_an-0_flipped.png",
+        "correct_composition": [
+          0,
+          0,
+          4,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
               4,
               0,
               0,
@@ -16069,7 +17229,7 @@
           5,
           5
         ],
-        "target_fname": "img/bo-0_he-6_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-6_ar-2_an-0.png",
         "correct_composition": [
           4,
           4,
@@ -16127,7 +17287,7 @@
           1,
           1
         ],
-        "target_fname": "img/bo-0_he-4_ar-1_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-4_ar-1_an-0.png",
         "correct_composition": [
           2,
           2,
@@ -16185,7 +17345,7 @@
           1,
           6
         ],
-        "target_fname": "img/bo-0_he-4_ar-5_an-0.png",
+        "target_fname": "img/bo-0_he-4_ar-5_an-0_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -16316,6 +17476,354 @@
         "options": [
           [
             [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ]
+        ],
+        "target": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "target_fname": "img/bo-0_he-4_ar-0_an-4_flipped.png",
+        "correct_composition": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ],
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-0_he-0_ar-5_an-3_flipped.png",
+        "correct_composition": [
+          0,
+          4,
+          0,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-1_ar-0_an-0.png",
+            "img/bo-0_he-5_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "target_fname": "img/bo-6_he-4_ar-0_an-0.png",
+        "correct_composition": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-5_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ]
+        ],
+        "target": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-3_he-3_ar-0_an-0.png",
+        "correct_composition": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ],
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "target_fname": "img/bo-3_he-0_ar-0_an-4.png",
+        "correct_composition": [
+          3,
+          3,
+          0,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ],
+          [
+            "img/bo-0_he-5_ar-0_an-0.png",
+            "img/bo-0_he-1_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-6_he-3_ar-0_an-0_flipped.png",
+        "correct_composition": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
               2,
               0,
               0,
@@ -16359,7 +17867,7 @@
           6,
           1
         ],
-        "target_fname": "img/bo-0_he-3_ar-1_an-0.png",
+        "target_fname": "img/bo-0_he-3_ar-1_an-0_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -16417,11 +17925,243 @@
           6,
           6
         ],
-        "target_fname": "img/bo-0_he-3_ar-5_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-3_ar-5_an-0.png",
         "correct_composition": [
           0,
           0,
           4,
+          4
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-6.png",
+            "img/bo-0_he-0_ar-0_an-2.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ]
+        ],
+        "target": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "target_fname": "img/bo-3_he-0_ar-1_an-0.png",
+        "correct_composition": [
+          3,
+          0,
+          0,
+          3
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              0,
+              0,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-3_an-0.png",
+            "img/bo-0_he-0_ar-6_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ]
+        ],
+        "target": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "target_fname": "img/bo-0_he-3_ar-0_an-3_flipped.png",
+        "correct_composition": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-2_he-0_ar-0_an-0.png",
+            "img/bo-1_he-0_ar-0_an-0.png"
+          ],
+          [
+            "img/bo-0_he-0_ar-6_an-0.png",
+            "img/bo-0_he-0_ar-3_an-0.png"
+          ]
+        ],
+        "target": [
+          6,
+          1,
+          0,
+          0
+        ],
+        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
+        "correct_composition": [
+          4,
+          3,
+          0,
+          0
+        ],
+        "n_steps": 2,
+        "practice": 0
+      },
+      {
+        "task_phase": "test",
+        "options": [
+          [
+            [
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "options_fnames": [
+          [
+            "img/bo-0_he-0_ar-0_an-2.png",
+            "img/bo-0_he-0_ar-0_an-6.png"
+          ],
+          [
+            "img/bo-1_he-0_ar-0_an-0.png",
+            "img/bo-2_he-0_ar-0_an-0.png"
+          ]
+        ],
+        "target": [
+          1,
+          0,
+          0,
+          6
+        ],
+        "target_fname": "img/bo-3_he-0_ar-5_an-0_flipped.png",
+        "correct_composition": [
+          3,
+          0,
+          0,
           4
         ],
         "n_steps": 2,
@@ -16475,7 +18215,7 @@
           2,
           5
         ],
-        "target_fname": "img/bo-0_he-2_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-2_ar-2_an-0.png",
         "correct_composition": [
           3,
           4,

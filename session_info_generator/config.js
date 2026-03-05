@@ -78,9 +78,9 @@ const N_CAUSAL_INFERENCES_NOVEL = 1;
 const N_OLD_TRIALS = 24;
 const N_SPURIOUS_TRIALS = 30;
 // below: [1-step (start = 0), 1-step (start = 1), 2-step (start = 0)]
-const N_NOVEL_OPTIONS_TARGET_TRIALS = [10, 10, 10];
-const N_NOVEL_OPTIONS_TRIALS = [10, 10, 10];
-const N_NOVEL_TARGET_TRIALS = [10, 10, 10];
+const N_NOVEL_OPTIONS_TARGET_TRIALS = [10, 10, 20];
+const N_NOVEL_OPTIONS_TRIALS = [10, 10, 20];
+const N_NOVEL_TARGET_TRIALS = [10, 10, 20];
 
 // Transition matrix between instance levels
 const INSTANCE_TMAT = [[1,0,0,0,0,0],
