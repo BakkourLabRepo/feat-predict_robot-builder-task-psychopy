@@ -1,10 +1,3 @@
-
-// CONDITION -> subject-level variables map
-const CONDITION_MAP = {
-    1: {'subject_id': '104', 'seed': 2, 'between_cond': 1},
-    2: {'subject_id': '200', 'seed': 50, 'between_cond': 1}
-}
-
 // seed and conditions to generate trials for
 const SEEDS = [
     0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16,
@@ -113,44 +106,109 @@ const STIM_TO_TASK_MAPPINGS = [
     {0: 0, 1: 2, 2: 3, 3: 1}
 ]
 
-// Transition matrix between feature levels. Differs by condition
+// Transition matrix between feature levels ([[step 1], [step 2]])
 const FEATURE_TMAT = [
 
-    // Condition 1 (1I)
-    [[1,0,0,0],
-     [0,1,0,0],
-     [0,0,1,0],
-     [0,0,0,1]],
+    // Condition 1 (1I) - semantic congruent
+    [
 
-    // Condition 2 (1II)
-    [[0,0,0,1],
-     [0,0,1,0],
-     [0,1,0,0],
-     [1,0,0,0]],
+        // Step 1
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
 
-    // Condition 3 (2I)
-    [[0,0,1,0],
-     [0,0,0,1],
-     [1,0,0,0],
-     [0,1,0,0]],
+        // Step 2
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
 
-    // Condition 4 (3II)
-    [[1,0,0,0],
-     [0,1,0,0],
-     [0,0,1,0],
-     [0,0,0,1]],
+    ],
 
-    // Condition 5 (2II)
-    [[1,0,0,0],
-     [0,1,0,0],
-     [0,0,1,0],
-     [0,0,0,1]],
+    // Condition 2 (1II) - semantic incongruent
 
-    // Condition 6 (3II)
-    [[0,0,1,0],
-     [0,0,0,1],
-     [1,0,0,0],
-     [0,1,0,0]]
+    [
+        // Step 1
+        [[0,0,0,1],
+         [0,0,1,0],
+         [0,1,0,0],
+         [1,0,0,0]],
+
+        // Step 2
+        [[0,0,1,0],
+         [0,0,0,1],
+         [1,0,0,0],
+         [0,1,0,0]],
+
+    ],
+
+    // Condition 3 (2I) - semantic incongruent
+    [
+
+        // Step 1
+        [[0,0,1,0],
+         [0,0,0,1],
+         [1,0,0,0],
+         [0,1,0,0]],
+
+        // Step 2
+        [[0,0,0,1],
+         [0,0,1,0],
+         [0,1,0,0],
+         [1,0,0,0]],
+
+    ],
+
+    // Condition 4 (3II) - semantic congruent
+    [
+
+        // Step 1
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+        // Step 2
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+    ],
+
+    // Condition 5 (2II) - semantic congruent
+    [
+
+        // Step 1
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+        // Step 2
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+    ],
+
+    // Condition 6 (3II) - semantic incongruent
+    [
+        // Step 1
+        [[0,0,1,0],
+         [0,0,0,1],
+         [1,0,0,0],
+         [0,1,0,0]],
+
+        // Step 2
+        [[0,0,0,1],
+         [0,0,1,0],
+         [0,1,0,0],
+         [1,0,0,0]]
+
+    ]
 ];
 
 const TRAIN_NON_MATCH_LEVEL_FREQ = 2;

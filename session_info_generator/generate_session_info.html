@@ -83,9 +83,10 @@
                 ////////////////////////////////////////////////////////
 
                 // Get most likely transition matrix and reward function
-                let feat_tmat_likely = getMostLikelyTransitionMatrix(
-                    FEATURE_TMAT[condition_label]
-                );
+                let feat_tmat_likely = [];
+                for (const feat_tmat of FEATURE_TMAT[condition_label]) {
+                    feat_tmat_likely.push(getMostLikelyTransitionMatrix(feat_tmat));
+                };
                 let inst_tmat_likely = getMostLikelyTransitionMatrix(
                     INSTANCE_TMAT
                 );

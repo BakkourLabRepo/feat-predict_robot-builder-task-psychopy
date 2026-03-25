@@ -50,8 +50,8 @@ CATEGORY_REPEATS = 2
 
 # Fast times if debugging
 if DEBUG:
-    TIMES = {key: .2 for key in TIMES.keys()}
-    ENCODING_TIMES = {key: .2 for key in ENCODING_TIMES.keys()}
+    TIMES = {key: .05 for key in TIMES.keys()}
+    ENCODING_TIMES = {key: .05 for key in ENCODING_TIMES.keys()}
     PRE_RUN_DELAY = .05
     POST_RUN_DELAY = .05
 
@@ -94,43 +94,115 @@ INSTANCE_TMAT = np.array([
     [0,0,0,0,0,1]
 ])
 
-# Transition matrix for feature values
+# Instance values at each step
+INSTANCE_VALUES = [
+    [3, 4],
+    [2, 5],
+    [1, 6]
+]
+
+# Transition matrix for feature values ([[step1], [step2]])
 FEATURE_TMAT = np.array([
 
-    # Condition 0 (1I)
-    [[1,0,0,0],
-     [0,1,0,0],
-     [0,0,1,0],
-     [0,0,0,1]],
+    # Condition 1 (1I) - semantic congruent
+    [
 
-    # Condition 1 (1II)
-    [[0,0,0,1],
-     [0,0,1,0],
-     [0,1,0,0],
-     [1,0,0,0]],
+        # Step 1
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
 
-    # Condition 2 (2I)
-    [[0,0,1,0],
-     [0,0,0,1],
-     [1,0,0,0],
-     [0,1,0,0]],
+        # Step 2
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
 
-    # Condition 3 (3II)
-    [[1,0,0,0],
-     [0,1,0,0],
-     [0,0,1,0],
-     [0,0,0,1]],
+    ],
 
-    # Condition 4 (2II)
-    [[1,0,0,0],
-     [0,1,0,0],
-     [0,0,1,0],
-     [0,0,0,1]],
+    # Condition 2 (1II) - semantic incongruent
 
-    # Condition 5 (3II)
-    [[0,0,1,0],
-     [0,0,0,1],
-     [1,0,0,0],
-     [0,1,0,0]]
+    [
+        # Step 1
+        [[0,0,0,1],
+         [0,0,1,0],
+         [0,1,0,0],
+         [1,0,0,0]],
+
+        # Step 2
+        [[0,0,1,0],
+         [0,0,0,1],
+         [1,0,0,0],
+         [0,1,0,0]],
+
+    ],
+
+    # Condition 3 (2I) - semantic incongruent
+    [
+
+        # Step 1
+        [[0,0,1,0],
+         [0,0,0,1],
+         [1,0,0,0],
+         [0,1,0,0]],
+
+        # Step 2
+        [[0,0,0,1],
+         [0,0,1,0],
+         [0,1,0,0],
+         [1,0,0,0]],
+
+    ],
+
+    # Condition 4 (3II) - semantic congruent
+    [
+
+        # Step 1
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+        # Step 2
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+    ],
+
+    # Condition 5 (2II) - semantic congruent
+    [
+
+        # Step 1
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+        # Step 2
+        [[1,0,0,0],
+         [0,1,0,0],
+         [0,0,1,0],
+         [0,0,0,1]],
+
+    ],
+
+    # Condition 6 (3II) - semantic incongruent
+    [
+        # Step 1
+        [[0,0,1,0],
+         [0,0,0,1],
+         [1,0,0,0],
+         [0,1,0,0]],
+
+        # Step 2
+        [[0,0,0,1],
+         [0,0,1,0],
+         [0,1,0,0],
+         [1,0,0,0]]
+
+    ]
     
 ])

@@ -1,6 +1,4 @@
-import pickle
 import re
-from os import listdir
 from psychopy import visual, event, core
 import numpy as np
 
@@ -782,6 +780,7 @@ def run_trial(
     task_to_stim_feature_map = None,
     task_to_stim_instance_map = None,
     feature_tmat = None,
+    instance_values = None,
     instance_tmat = None,
     total_points = '???',
     keys = None,
@@ -872,6 +871,11 @@ def run_trial(
         trial = 1
     else:
         trial = data['t'].iloc[-1] + 1
+
+    # What step are we starting at?
+    start_insts_levels = np.unique(options)
+    start_insts_level = start_insts_levels[start_insts_levels != 0][0]
+    start_step = np.where(start_insts_level == instance_values)[0][0]
 
     # Inter-trial interval
     screen_objects['+'].draw()
@@ -1026,11 +1030,11 @@ def run_trial(
 
                     # Successor
                     successor = composition.copy()
-                    for _ in range(n_steps):
+                    for step in range(n_steps):
                         successor = get_successor(
                             successor,
                             instance_tmat,
-                            feature_tmat
+                            feature_tmat[start_step + step]
                         )
                     successor_fname = conj_to_img(
                         successor,

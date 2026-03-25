@@ -104,10 +104,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -162,10 +162,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -858,10 +858,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -974,10 +974,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -1032,10 +1032,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -1090,10 +1090,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -1148,10 +1148,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -1380,10 +1380,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           2,
           5,
@@ -1438,10 +1438,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           2,
           5,
@@ -1844,10 +1844,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -1960,10 +1960,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -2018,10 +2018,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -2076,10 +2076,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -2252,10 +2252,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -2310,10 +2310,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           2,
           5,
@@ -2426,10 +2426,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -2542,10 +2542,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -2658,10 +2658,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -2890,10 +2890,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -2948,10 +2948,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           2,
           5,
@@ -3238,10 +3238,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -3354,10 +3354,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -3760,10 +3760,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           2,
           5,
@@ -4108,10 +4108,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -4514,12 +4514,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -4688,12 +4688,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -4862,12 +4862,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -4920,12 +4920,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -4978,12 +4978,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -5094,12 +5094,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -5558,12 +5558,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -6080,12 +6080,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -6254,12 +6254,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -6662,12 +6662,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -6720,12 +6720,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -6778,12 +6778,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -6836,12 +6836,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -7010,12 +7010,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -7126,12 +7126,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -7184,12 +7184,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -7242,12 +7242,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -7358,12 +7358,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -7648,12 +7648,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -7706,12 +7706,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -7822,12 +7822,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -7880,12 +7880,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -8054,12 +8054,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -8228,12 +8228,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,
@@ -8406,12 +8406,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
         "correct_composition": [
           0,
           2,
@@ -8522,12 +8522,12 @@
           ]
         ],
         "target": [
+          1,
           0,
-          1,
-          1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -8698,10 +8698,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           0,
           0,
@@ -8754,12 +8754,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -8928,12 +8928,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-1_ar-3_an-0.png",
         "correct_composition": [
           3,
           0,
@@ -8988,10 +8988,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -9046,10 +9046,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -9160,12 +9160,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -9276,12 +9276,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -9452,10 +9452,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -9682,12 +9682,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           4,
           3,
@@ -9798,12 +9798,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-2_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -9914,12 +9914,12 @@
           ]
         ],
         "target": [
+          6,
           0,
-          6,
-          6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-5_ar-2_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3.png",
         "correct_composition": [
           5,
           0,
@@ -10030,12 +10030,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -10146,12 +10146,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -10204,12 +10204,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4.png",
         "correct_composition": [
           4,
           0,
@@ -10262,12 +10262,12 @@
           ]
         ],
         "target": [
+          6,
           0,
-          6,
-          6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -10320,12 +10320,12 @@
           ]
         ],
         "target": [
-          6,
           0,
           6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-1_he-0_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-3_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -10378,12 +10378,12 @@
           ]
         ],
         "target": [
-          1,
           0,
           1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-6_he-0_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-4.png",
         "correct_composition": [
           2,
           0,
@@ -10436,12 +10436,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
         "correct_composition": [
           0,
           4,
@@ -10552,12 +10552,12 @@
           ]
         ],
         "target": [
+          1,
           0,
-          1,
-          1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -10668,12 +10668,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -10726,12 +10726,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
         "correct_composition": [
           2,
           0,
@@ -10958,12 +10958,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -11016,12 +11016,12 @@
           ]
         ],
         "target": [
+          6,
           0,
-          6,
-          6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-5_ar-2_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3.png",
         "correct_composition": [
           5,
           0,
@@ -11134,10 +11134,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           5,
           2,
@@ -11248,12 +11248,12 @@
           ]
         ],
         "target": [
-          0,
           1,
-          6,
-          0
+          0,
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-1_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-3_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -11366,10 +11366,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -11422,12 +11422,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -11596,12 +11596,12 @@
           ]
         ],
         "target": [
-          6,
           0,
           6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
         "correct_composition": [
           4,
           0,
@@ -11654,12 +11654,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -12002,12 +12002,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -12118,12 +12118,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-4.png",
+        "target_fname": "img/bo-6_he-0_ar-3_an-0.png",
         "correct_composition": [
           0,
           2,
@@ -12350,12 +12350,12 @@
           ]
         ],
         "target": [
+          6,
           0,
-          6,
-          6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-5_ar-2_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3.png",
         "correct_composition": [
           0,
           4,
@@ -12408,12 +12408,12 @@
           ]
         ],
         "target": [
+          0,
           1,
           0,
-          6,
-          0
+          6
         ],
-        "target_fname": "img/bo-6_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-3.png",
         "correct_composition": [
           5,
           0,
@@ -12468,10 +12468,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -12640,12 +12640,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           2,
@@ -12756,12 +12756,12 @@
           ]
         ],
         "target": [
+          0,
           1,
           0,
-          6,
-          0
+          6
         ],
-        "target_fname": "img/bo-6_he-0_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-3_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -12872,12 +12872,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-4.png",
+        "target_fname": "img/bo-6_he-0_ar-3_an-0.png",
         "correct_composition": [
           0,
           3,
@@ -12988,12 +12988,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -13104,12 +13104,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
         "correct_composition": [
           2,
           0,
@@ -13164,10 +13164,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           2,
           5,
@@ -13220,12 +13220,12 @@
           ]
         ],
         "target": [
-          6,
           0,
           6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
         "correct_composition": [
           5,
           0,
@@ -13278,12 +13278,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -13456,10 +13456,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           5,
           2,
@@ -13570,12 +13570,12 @@
           ]
         ],
         "target": [
+          0,
           1,
           0,
-          6,
-          0
+          6
         ],
-        "target_fname": "img/bo-6_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-3.png",
         "correct_composition": [
           3,
           0,
@@ -13628,12 +13628,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-3.png",
+        "target_fname": "img/bo-6_he-0_ar-2_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -13686,12 +13686,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           3,
           4,
@@ -13802,12 +13802,12 @@
           ]
         ],
         "target": [
+          6,
           0,
-          6,
-          6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
         "correct_composition": [
           5,
           0,
@@ -13860,12 +13860,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           4,
           3,
@@ -13918,12 +13918,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-3.png",
+        "target_fname": "img/bo-6_he-0_ar-2_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -14034,12 +14034,12 @@
           ]
         ],
         "target": [
-          0,
           1,
-          6,
-          0
+          0,
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-1_ar-2_an-0.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-3.png",
         "correct_composition": [
           0,
           3,
@@ -14208,12 +14208,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -14324,12 +14324,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-4.png",
+        "target_fname": "img/bo-6_he-0_ar-3_an-0.png",
         "correct_composition": [
           0,
           2,
@@ -14440,12 +14440,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-4.png",
+        "target_fname": "img/bo-1_he-0_ar-3_an-0.png",
         "correct_composition": [
           0,
           4,
@@ -14498,12 +14498,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -14556,12 +14556,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-2_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -14614,12 +14614,12 @@
           ]
         ],
         "target": [
+          1,
           0,
-          1,
-          1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-1_ar-3_an-0.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-4.png",
         "correct_composition": [
           0,
           3,
@@ -14672,12 +14672,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -14732,10 +14732,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -14788,12 +14788,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           4,
           3,
@@ -14846,12 +14846,12 @@
           ]
         ],
         "target": [
-          0,
           1,
-          6,
-          0
+          0,
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-1_ar-2_an-0.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-3.png",
         "correct_composition": [
           0,
           3,
@@ -14904,12 +14904,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-2_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -14962,12 +14962,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -15078,12 +15078,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-3.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -15136,12 +15136,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           2,
@@ -15194,12 +15194,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
+        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
         "correct_composition": [
           0,
           4,
@@ -15254,10 +15254,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -15312,10 +15312,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           0,
           0,
@@ -15370,10 +15370,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           2,
           5,
@@ -15426,12 +15426,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-2_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -15484,12 +15484,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4.png",
         "correct_composition": [
           4,
           0,
@@ -15600,12 +15600,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-3.png",
+        "target_fname": "img/bo-0_he-1_ar-2_an-0.png",
         "correct_composition": [
           0,
           5,
@@ -15658,12 +15658,12 @@
           ]
         ],
         "target": [
+          0,
           1,
           0,
-          6,
-          0
+          6
         ],
-        "target_fname": "img/bo-6_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-3.png",
         "correct_composition": [
           5,
           0,
@@ -15716,12 +15716,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           2,
@@ -15774,12 +15774,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -15832,12 +15832,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
         "correct_composition": [
           0,
           4,
@@ -15890,12 +15890,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -16122,12 +16122,12 @@
           ]
         ],
         "target": [
-          0,
           1,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-1_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -16180,12 +16180,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-1_ar-3_an-0.png",
         "correct_composition": [
           3,
           0,
@@ -16238,12 +16238,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -16296,12 +16296,12 @@
           ]
         ],
         "target": [
+          1,
           0,
-          1,
-          1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -16354,12 +16354,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -16414,10 +16414,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4_flipped.png",
         "correct_composition": [
           0,
           0,
@@ -16470,12 +16470,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -16528,12 +16528,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4.png",
         "correct_composition": [
           4,
           0,
@@ -16586,12 +16586,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
         "correct_composition": [
           0,
           4,
@@ -16646,10 +16646,10 @@
         "target": [
           0,
           0,
-          6,
-          1
+          1,
+          6
         ],
-        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
+        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
         "correct_composition": [
           0,
           0,
@@ -16704,10 +16704,10 @@
         "target": [
           0,
           0,
-          1,
-          6
+          6,
+          1
         ],
-        "target_fname": "img/bo-0_he-0_ar-3_an-3.png",
+        "target_fname": "img/bo-0_he-0_ar-2_an-4.png",
         "correct_composition": [
           0,
           0,
@@ -16760,12 +16760,12 @@
           ]
         ],
         "target": [
-          0,
           6,
-          1,
-          0
+          0,
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-5_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -16934,12 +16934,12 @@
           ]
         ],
         "target": [
+          0,
           1,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
         "correct_composition": [
           3,
           0,
@@ -17050,12 +17050,12 @@
           ]
         ],
         "target": [
+          1,
           0,
-          1,
-          1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -17108,12 +17108,12 @@
           ]
         ],
         "target": [
-          6,
           1,
+          6,
           0,
           0
         ],
-        "target_fname": "img/bo-1_he-1_ar-0_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-5_ar-0_an-0_flipped.png",
         "correct_composition": [
           4,
           3,
@@ -17166,12 +17166,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           3,
           4,
@@ -17282,12 +17282,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
         "correct_composition": [
           0,
           5,
@@ -17340,12 +17340,12 @@
           ]
         ],
         "target": [
+          0,
           1,
           0,
-          6,
-          0
+          6
         ],
-        "target_fname": "img/bo-6_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-3.png",
         "correct_composition": [
           3,
           0,
@@ -17398,12 +17398,12 @@
           ]
         ],
         "target": [
-          1,
           0,
           1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-6_he-0_ar-3_an-0.png",
+        "target_fname": "img/bo-0_he-1_ar-0_an-4.png",
         "correct_composition": [
           3,
           0,
@@ -17572,12 +17572,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
         "correct_composition": [
           4,
           0,
@@ -17630,12 +17630,12 @@
           ]
         ],
         "target": [
+          1,
           0,
-          1,
-          1,
-          0
+          0,
+          1
         ],
-        "target_fname": "img/bo-0_he-1_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-4_flipped.png",
         "correct_composition": [
           0,
           3,
@@ -17688,12 +17688,12 @@
           ]
         ],
         "target": [
-          0,
           6,
           0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -17804,12 +17804,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          1
+          1,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-4.png",
+        "target_fname": "img/bo-0_he-5_ar-3_an-0.png",
         "correct_composition": [
           4,
           0,
@@ -17862,12 +17862,12 @@
           ]
         ],
         "target": [
-          6,
           0,
           6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-1_he-0_ar-2_an-0.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-3.png",
         "correct_composition": [
           4,
           0,
@@ -17920,12 +17920,12 @@
           ]
         ],
         "target": [
-          0,
           1,
-          6,
-          0
+          0,
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-1_ar-2_an-0.png",
+        "target_fname": "img/bo-6_he-0_ar-0_an-3.png",
         "correct_composition": [
           0,
           3,
@@ -17978,12 +17978,12 @@
           ]
         ],
         "target": [
+          6,
           0,
-          6,
-          6,
-          0
+          0,
+          6
         ],
-        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
+        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
         "correct_composition": [
           0,
           4,
@@ -18152,12 +18152,12 @@
           ]
         ],
         "target": [
+          0,
           6,
-          0,
-          0,
-          6
+          6,
+          0
         ],
-        "target_fname": "img/bo-1_he-0_ar-0_an-3_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-2_an-0_flipped.png",
         "correct_composition": [
           4,
           0,
@@ -18210,12 +18210,12 @@
           ]
         ],
         "target": [
+          0,
           6,
           0,
-          1,
-          0
+          1
         ],
-        "target_fname": "img/bo-1_he-0_ar-3_an-0_flipped.png",
+        "target_fname": "img/bo-0_he-5_ar-0_an-4_flipped.png",
         "correct_composition": [
           2,
           0,
@@ -18268,12 +18268,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           3,
           4,
@@ -18384,12 +18384,12 @@
           ]
         ],
         "target": [
-          1,
           6,
+          1,
           0,
           0
         ],
-        "target_fname": "img/bo-6_he-5_ar-0_an-0.png",
+        "target_fname": "img/bo-1_he-1_ar-0_an-0.png",
         "correct_composition": [
           0,
           0,

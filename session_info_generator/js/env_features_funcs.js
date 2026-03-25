@@ -176,13 +176,10 @@ function generateTrials(
                             target = getSuccessor(
                                 target,
                                 instance_tmat,
-                                feature_tmat
+                                feature_tmat[step + i]
                             );
                         };
                         
-                        // Get target
-                        // const target = getSuccessor(start, instance_tmat, feature_tmat)
-
                         // Does the conjunction's features have different
                         // instance levels? (e.g. [3, 2, 0, 0] not [3, 3, 0, 0])
                         const inst_levels = getUniqueNonZeroValues(target);

@@ -35,6 +35,7 @@ from config import (
     POSITIONS,
     KEYS,
     INSTANCE_TMAT,
+    INSTANCE_VALUES,
     FEATURE_TMAT,
     INSTRUCTIONS_KEYS
 )
@@ -318,6 +319,7 @@ for phase in ['training', 'test']:
                 'task_to_stim_feature_map': task_to_stim_feature_map,
                 'task_to_stim_instance_map': task_to_stim_instance_map,
                 'feature_tmat': feature_tmat,
+                'instance_values': INSTANCE_VALUES,
                 'instance_tmat': INSTANCE_TMAT,
                 'total_points': total_points,
                 'keys': KEYS,
