@@ -979,14 +979,15 @@ def run_trial(
         # Get keypresses
         if debug and len(selected) < 2:
             keypresses = np.random.choice(keys, 2)
+            keypresses = [(key, {}) for key in keypresses] # empty mods
         else:
             keypresses = event.getKeys()
 
         # Check for keypresses
-        for key in keypresses:
+        for key, mods in keypresses:
 
             # Quit
-            if key == 'escape':
+            if (key == 'escape') and mods['ctrl']:
                 win.close()
                 core.quit()
             elif key not in keys:
@@ -1264,9 +1265,9 @@ def run_encoding_trial(
     while clock.getTime() < running_time:
 
         # Check for quit keypress
-        keypresses = event.getKeys()
-        for key in keypresses:
-            if key == 'escape':
+        keypresses = event.getKeys(modifiers=True)
+        for key, mods in keypresses:
+            if (key == 'escape') and mods['ctrl']:
                 win.close()
                 core.quit()
 
