@@ -536,14 +536,14 @@ def draw_instructions(
 
     screen_objects[pane_key].draw()
     win.flip()
-    keypress = event.waitKeys()[0]
+    keypress, mods = event.waitKeys(modifiers=True)[0]
 
     # Move instructions forward or backwards
     if keypress in forward_keys:
         pane += 1
     elif keypress in backward_keys:
         pane -= 1
-    elif keypress == 'escape':
+    elif (keypress == 'escape') and mods['ctrl']:
         core.quit()
 
     return pane
