@@ -981,7 +981,7 @@ def run_trial(
             keypresses = np.random.choice(keys, 2)
             keypresses = [(key, {}) for key in keypresses] # empty mods
         else:
-            keypresses = event.getKeys()
+            keypresses = event.getKeys(modifiers=True)
 
         # Check for keypresses
         for key, mods in keypresses:

@@ -1,6 +1,6 @@
 import json
 import pickle
-from os import listdir, makedirs
+from os import listdir, makedirs, remove
 import numpy as np
 import pandas as pd
 from psychopy import visual, core, event
@@ -23,6 +23,7 @@ from task_funcs import (
 from config import (
     DEBUG,
     SHOW_INSTRUCTIONS,
+    RUN_ENCODING,
     DATA_PATH,
     IMG_PATH,
     TIMES,
@@ -80,6 +81,20 @@ win_h = win.size[1]*SIZE_SCALE
 adjust_sizes(SIZES, win_h)
 adjust_positions(POSITIONS, win_h)
 
+# Load running trial info if exists
+running_trial_fname = f'{DATA_PATH}/sub-{SUBJ}_running-info.pkl'
+try:
+    with open(running_trial_fname, 'rb') as f:
+        running_trial_info = pickle.load(f)
+        running_phase = running_trial_info['running_phase']
+        running_run = running_trial_info['running_run']
+        running_trial = running_trial_info['running_trial']
+        total_points = running_trial_info['total_points']
+except:
+    running_phase = 'training'
+    running_run = 1
+    running_trial = 0
+    total_points = 0
 
 #######################################################################
 ### Show Welcome Instructions #########################################
@@ -102,7 +117,12 @@ screen_objects = preload_covertask_stimuli(
 )
 
 # Show instructions
-if SHOW_INSTRUCTIONS:
+if (
+    SHOW_INSTRUCTIONS and
+    (running_phase == 'training') and
+    (running_run == 1) and
+    (running_trial == 0)
+):
     instructions(win, screen_objects, INSTRUCTIONS_KEYS)
 
 
@@ -138,7 +158,12 @@ screen_objects = preload_covertask_stimuli(
 )
 
 # Show instructions
-if SHOW_INSTRUCTIONS:
+if (
+    SHOW_INSTRUCTIONS and
+    (running_phase == 'training') and
+    (running_run == 1) and
+    (running_trial == 0)
+):
     instructions(win, screen_objects, INSTRUCTIONS_KEYS)
 
 # Task clock
@@ -157,23 +182,37 @@ for _ in range(CATEGORY_REPEATS):
         for feature_fname in instance_labels:
 
             # Run trial
-            running_time = run_encoding_trial(
-                clock = clock,
-                running_time = running_time,
-                win = win,
-                times = ENCODING_TIMES,
-                screen_objects = screen_objects,
-                item_fname = feature_fname,
-                category_name = category_name
-            )
+            if (
+                RUN_ENCODING and
+                (
+                    (running_phase == 'training') and 
+                    (running_run == 1) and
+                    (running_trial == 0)
+                )
+            ):
+                running_time = run_encoding_trial(
+                    clock = clock,
+                    running_time = running_time,
+                    win = win,
+                    times = ENCODING_TIMES,
+                    screen_objects = screen_objects,
+                    item_fname = feature_fname,
+                    category_name = category_name
+                )
             category_name = False
-
 
 #######################################################################
 ### Run Comprehension #################################################
 #######################################################################
 
-if SHOW_INSTRUCTIONS:
+if (
+    SHOW_INSTRUCTIONS and
+    (
+        (running_phase == 'training') and 
+        (running_run == 1) and
+        (running_trial == 0)
+    )
+    ):
 
     # Load instructions images
     fnames_to_load = []
@@ -224,6 +263,9 @@ if SHOW_INSTRUCTIONS:
 #######################################################################
 
 for phase in ['training', 'test']:
+    if (phase == 'training') and (running_phase == 'test'):
+        continue
+    running_phase = phase
 
     # Get stimuli to load based on phase
     if phase == 'training':
@@ -246,45 +288,58 @@ for phase in ['training', 'test']:
     screen_objects = preload_stimuli(win, fnames_to_load, SIZES, POSITIONS)
 
     # Instructions
-    if SHOW_INSTRUCTIONS and (phase == 'test'):
+    if (
+        SHOW_INSTRUCTIONS and
+        (phase == 'test') and
+        (running_run == 1) and
+        (running_trial == 0)
+        ):
         instructions(win, screen_objects, INSTRUCTIONS_KEYS)
 
     # Initialize data frame
-    data = pd.DataFrame(columns=[
-        'id',
-        'seed',
-        'condition',
-        'between_cond',
-        'phase',
-        'run',
-        't',
-        'n_steps',
-        'target_comb',
-        'options_comb',
-        'options_fnames',
-        'options',
-        'correct_composition',
-        'composition_fname',
-        'composition',
-        'successor_fname',
-        'successor',
-        'target_fname',
-        'target',
-        'reward',
-        'correct',
-        'valid_response',
-        'rt',
-        'selections'
-    ])
+    if (running_trial > 0) or (running_run > 1):
+        fname = f'sub-{SUBJ}_task-{phase}.csv'
+        data = pd.read_csv(f'{DATA_PATH}/{fname}')
+    else:
+        data = pd.DataFrame(columns=[
+            'id',
+            'seed',
+            'condition',
+            'between_cond',
+            'phase',
+            'run',
+            't',
+            'n_steps',
+            'target_comb',
+            'options_comb',
+            'options_fnames',
+            'options',
+            'correct_composition',
+            'composition_fname',
+            'composition',
+            'successor_fname',
+            'successor',
+            'target_fname',
+            'target',
+            'reward',
+            'correct',
+            'valid_response',
+            'rt',
+            'selections'
+        ])
 
     # Initialize total points 
-    if phase == 'training':
-        total_points = 0
+    if (phase == 'training') :
+        if (running_trial == 0) and (running_run == 1):
+            total_points = 0
     elif phase == 'test':
         total_points = '???'
 
     for run in range(1, len(phase_trial_info) + 1):
-
+        if running_run > run:
+            continue
+        running_run = run
+        
         run_info = {
             'id': SUBJ,
             'seed': SEED,
@@ -306,7 +361,10 @@ for phase in ['training', 'test']:
 
         # Run phase
         for t, trial_info in enumerate(phase_trial_info[run - 1]):
-
+            if running_trial > t:
+                continue
+            running_trial = t
+            
             # Run trial
             trial_info = {
                 'clock': clock,
@@ -332,6 +390,25 @@ for phase in ['training', 'test']:
             }
             data, total_points, running_time = run_trial(**trial_info)
 
+            # Dump running trial to pickle
+            with open(running_trial_fname, 'wb') as f:
+                pickle.dump({
+                    'running_phase': running_phase,
+                    'running_run': running_run,
+                    'running_trial': running_trial + 1,
+                    'total_points': total_points
+                }, f)
+
+        # Dump running trial to pickle
+        running_trial = 0
+        with open(running_trial_fname, 'wb') as f:
+            pickle.dump({
+                'running_phase': running_phase,
+                'running_run': run + 1,  
+                'running_trial': 0,
+                'total_points': total_points
+            }, f)
+
         # Post run delay
         screen_objects['+'].draw()
         win.flip()
@@ -348,9 +425,22 @@ for phase in ['training', 'test']:
 
     print(f'Total points for {phase}: {total_points}')
 
+    # Dump running trial to pickle
+    running_run = 1
+    with open(running_trial_fname, 'wb') as f:
+        pickle.dump({
+            'running_phase': 'test' if running_phase == 'training' else 'done',
+            'running_run': 1,
+            'running_trial': 0,
+            'total_points': total_points
+        }, f)
+
 if SHOW_INSTRUCTIONS:
     text_display(win, 'You\'ve finished the game!\n\nPlease get the experimenter.')
     event.waitKeys()
+
+# Delete running trial info pickle
+remove(running_trial_fname)
 
 # Close the window
 win.close()

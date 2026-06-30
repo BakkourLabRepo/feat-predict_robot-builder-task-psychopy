@@ -6,6 +6,9 @@ DEBUG = False
 # Whether to show instructions
 SHOW_INSTRUCTIONS = True
 
+# Whether to run the encoding phase
+RUN_ENCODING = True
+
 # Path to save data to
 DATA_PATH = 'data'
 
